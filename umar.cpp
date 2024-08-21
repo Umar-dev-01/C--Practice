@@ -1,9 +1,10 @@
 #include <iostream>
 using namespace std;
 int main() {
-    cout << "hello world!"<<endl;
-    cout<<"I am dumb"<<endl;
-    cout<<"Test 2"<<endl;
+   int a=14, b=15;
+   float pi=3.14;
+   cout<<"this is factorial 4 \n here the valun of a is"<<a<<"\n the valu of b is"<<b;
+   cout<<"\n the valu of pi is"<<pi;
 
     return 0;
 }
