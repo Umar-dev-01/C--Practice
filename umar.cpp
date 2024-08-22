@@ -20,12 +20,15 @@ int a=7,b=10;
 //cout<<"the value of a++ "<<a++<<endl;
 //cout<<"the value of a-- "<<a--<<endl;
 //cout<<"the valu of --a "<<--a<<endl;
-cout<<"the value of (a==b) "<<(a==b)<<endl;
-cout<<"the valu of (a--b) "<<(a!=b)<<endl;
-cout<<"the value of (a<b) "<<(a<b)<<endl;
-cout<<"the value of (a>b) "<<(a>b)<<endl;
-cout<<"the value of (a<=b) "<<(a<=b)<<endl;
-cout<<"the value of (a>=b) "<<(a>=b)<<endl;
+cout<<"the value of LOGICAL OPERATOR IS (a==b)&& (a<b)"<<((a==b)&&(a<b))<<endl;
+cout<<"the value of logical operator is (a==b)&& (a<b)"<<((a==b)||(a<b))<<endl;
+cout<<"the value of logical operator is (!(a==b))"<<(!(a==b))<<endl;
+//cout<<"the value of (a>b) "<<(a>b)<<endl;
+//cout<<"the valu of (a--b) "<<(a!=b)<<endl;
+//cout<<"the value of (a<b) "<<(a<b)<<endl;
+//cout<<"the value of (a>b) "<<(a>b)<<endl;
+//cout<<"the value of (a<=b) "<<(a<=b)<<endl;
+//cout<<"the value of (a>=b) "<<(a>=b)<<endl;
 
     return 0;
 }
