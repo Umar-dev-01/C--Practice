@@ -1,4 +1,5 @@
 #include <iostream>
+#include <iomanip>
 using namespace std;
 int main() 
 {
@@ -8,6 +9,8 @@ int main()
 // cout<<"enter the value of num 2:\n";
 //cin>>num2;
 //cout<<"the sum is "<<num1+num2<<endl;
+
+
 //int a=7,b=10;
 //cout<<"fallowing or the types of oprerators in c++"<<endl;
 //cout<<"the value of a + b is "<<a+b<<endl;
@@ -36,6 +39,7 @@ int main()
 //cin>>b;
 //c=a+b;
 //cout<<"the value of sum is c= "<<c<<endl;
+
 //                                         "moskel program"
 //float d=4.13F;
 //double e=4.13L;
@@ -44,11 +48,24 @@ int main()
 //cout<<"size of the (4.13L)"<<sizeof(4.13L)<<endl;
 //cout<<"size of (4.13F)"<<sizeof(4.13F)<<endl;
 //cout<<"size of (4.13f)"<<sizeof(4.13f)<<endl;
+
 //                                               "reference operator"
-float a=12;
-float & b=a;
-cout<<a<<endl;
-cout<<b;
+//float a=12;
+//float & b=a;
+//cout<<a<<endl;
+//cout<<b;
+
+//                                             "setW used"
+int a=7,b=52,c=324,d=8521;
+cout<<"enter the value of a without setW "<<a<<endl;
+cout<<"enter the value of b without setW "<<b<<endl;
+cout<<"enter the value of c without setW "<<c<<endl;
+cout<<"enter the value of d without setW "<<d<<endl;
+//with setW                      add hidrofile <iomanip>
+cout<<"enter the value of a with setW "<<setw(5)<<a<<endl;
+cout<<"enter the value of b with setW "<<setw(5)<<b<<endl;
+cout<<"enter the value of c with setW "<<setw(5)<<c<<endl;
+cout<<"enter the value of d with setW "<<setw(5)<<d<<endl;
     return 0;
 }
 
