@@ -37,13 +37,18 @@ int main()
 //c=a+b;
 //cout<<"the value of sum is c= "<<c<<endl;
 //                                         "moskel program"
-float d=4.13F;
-double e=4.13L;
-cout<<"the size of (4.13)"<<sizeof(4.13)<<endl;
-cout<<"the size of (4.13l) "<<sizeof(4.13l)<<endl;
-cout<<"size of the (4.13L)"<<sizeof(4.13L)<<endl;
-cout<<"size of (4.13F)"<<sizeof(4.13F)<<endl;
-cout<<"size of (4.13f)"<<sizeof(4.13f)<<endl;
+//float d=4.13F;
+//double e=4.13L;
+//cout<<"the size of (4.13)"<<sizeof(4.13)<<endl;
+//cout<<"the size of (4.13l) "<<sizeof(4.13l)<<endl;
+//cout<<"size of the (4.13L)"<<sizeof(4.13L)<<endl;
+//cout<<"size of (4.13F)"<<sizeof(4.13F)<<endl;
+//cout<<"size of (4.13f)"<<sizeof(4.13f)<<endl;
+//                                               "reference operator"
+float a=12;
+float & b=a;
+cout<<a<<endl;
+cout<<b;
     return 0;
 }
 
