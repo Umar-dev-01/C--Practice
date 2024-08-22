@@ -55,17 +55,22 @@ int main()
 //cout<<a<<endl;
 //cout<<b;
 
-//                                             "setW used"
-int a=7,b=52,c=324,d=8521;
-cout<<"enter the value of a without setW "<<a<<endl;
-cout<<"enter the value of b without setW "<<b<<endl;
-cout<<"enter the value of c without setW "<<c<<endl;
-cout<<"enter the value of d without setW "<<d<<endl;
+//                                             "setW used for row colum"
+//int a=7,b=52,c=324,d=8521;
+//cout<<"enter the value of a without setW "<<a<<endl;
+//cout<<"enter the value of b without setW "<<b<<endl;
+//cout<<"enter the value of c without setW "<<c<<endl;
+//cout<<"enter the value of d without setW "<<d<<endl;
 //with setW                      add hidrofile <iomanip>
-cout<<"enter the value of a with setW "<<setw(5)<<a<<endl;
-cout<<"enter the value of b with setW "<<setw(5)<<b<<endl;
-cout<<"enter the value of c with setW "<<setw(5)<<c<<endl;
-cout<<"enter the value of d with setW "<<setw(5)<<d<<endl;
+//cout<<"enter the value of a with setW "<<setw(5)<<a<<endl;
+//cout<<"enter the value of b with setW "<<setw(5)<<b<<endl;
+//cout<<"enter the value of c with setW "<<setw(5)<<c<<endl;
+//cout<<"enter the value of d with setW "<<setw(5)<<d<<endl;
+
+//                                                   "operater precedence"
+int a=41,b=8;
+int c = (((a*4)+b)-5);
+ cout<<c;
     return 0;
 }
 
