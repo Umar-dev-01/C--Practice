@@ -8,7 +8,7 @@ int main()
 // cout<<"enter the value of num 2:\n";
 //cin>>num2;
 //cout<<"the sum is "<<num1+num2<<endl;
-int a=7,b=10;
+//int a=7,b=10;
 //cout<<"fallowing or the types of oprerators in c++"<<endl;
 //cout<<"the value of a + b is "<<a+b<<endl;
 //cout<<"the value of a - b is "<<a-b<<endl;
@@ -20,16 +20,22 @@ int a=7,b=10;
 //cout<<"the value of a++ "<<a++<<endl;
 //cout<<"the value of a-- "<<a--<<endl;
 //cout<<"the valu of --a "<<--a<<endl;
-cout<<"the value of LOGICAL OPERATOR IS (a==b)&& (a<b)"<<((a==b)&&(a<b))<<endl;
-cout<<"the value of logical operator is (a==b)&& (a<b)"<<((a==b)||(a<b))<<endl;
-cout<<"the value of logical operator is (!(a==b))"<<(!(a==b))<<endl;
+//cout<<"the value of LOGICAL OPERATOR IS (a==b)&& (a<b)"<<((a==b)&&(a<b))<<endl;
+//cout<<"the value of logical operator is (a==b)&& (a<b)"<<((a==b)||(a<b))<<endl;
+//cout<<"the value of logical operator is (!(a==b))"<<(!(a==b))<<endl;
 //cout<<"the value of (a>b) "<<(a>b)<<endl;
 //cout<<"the valu of (a--b) "<<(a!=b)<<endl;
 //cout<<"the value of (a<b) "<<(a<b)<<endl;
 //cout<<"the value of (a>b) "<<(a>b)<<endl;
 //cout<<"the value of (a<=b) "<<(a<=b)<<endl;
 //cout<<"the value of (a>=b) "<<(a>=b)<<endl;
-
+int a,b,c;
+cout<<"enter the the value of a="<<endl;
+cin>>a;
+cout<<"enter the value of b="<<endl;
+cin>>b;
+c=a+b;
+cout<<"the value of sum is c= "<<c<<endl;
     return 0;
 }
 
