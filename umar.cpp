@@ -9,17 +9,23 @@ int main()
 //cin>>num2;
 //cout<<"the sum is "<<num1+num2<<endl;
 int a=7,b=10;
-cout<<"fallowing or the types of oprerators in c++"<<endl;
-cout<<"the value of a + b is "<<a+b<<endl;
-cout<<"the value of a - b is "<<a-b<<endl;
-cout<<"the value of a * b is "<<a*b<<endl;
-cout<<"the value of a / b is "<<a/b<<endl;
-cout<<"enter the value of a % b is "<<a%b<<endl;
+//cout<<"fallowing or the types of oprerators in c++"<<endl;
+//cout<<"the value of a + b is "<<a+b<<endl;
+//cout<<"the value of a - b is "<<a-b<<endl;
+//cout<<"the value of a * b is "<<a*b<<endl;
+//cout<<"the value of a / b is "<<a/b<<endl;
+//cout<<"enter the value of a % b is "<<a%b<<endl;
 // 2 short program attached in one
-cout<<"the value of ++a "<<++a<<endl;
-cout<<"the value of a++ "<<a++<<endl;
-cout<<"the value of a-- "<<a--<<endl;
-cout<<"the valu of --a "<<--a<<endl;
+//cout<<"the value of ++a "<<++a<<endl;
+//cout<<"the value of a++ "<<a++<<endl;
+//cout<<"the value of a-- "<<a--<<endl;
+//cout<<"the valu of --a "<<--a<<endl;
+cout<<"the value of (a==b) "<<(a==b)<<endl;
+cout<<"the valu of (a--b) "<<(a!=b)<<endl;
+cout<<"the value of (a<b) "<<(a<b)<<endl;
+cout<<"the value of (a>b) "<<(a>b)<<endl;
+cout<<"the value of (a<=b) "<<(a<=b)<<endl;
+cout<<"the value of (a>=b) "<<(a>=b)<<endl;
 
     return 0;
 }
