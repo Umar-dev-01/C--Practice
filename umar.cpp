@@ -73,8 +73,7 @@ int main() {
 // cout<<c;
 
 //                                                      "if else statment"
-int age;
-
+/*int age;
 cout<<"tell me your age"<<endl;
 cin>>age;
 if(age<19){
@@ -85,6 +84,29 @@ cout<<"ok.but few times"<<endl;
 }
  else {
 cout<<"you can enjoy all time with our group"<<endl;
+}*/
+
+
+//                                                    "switch case statment"
+int age;
+cout<<"enter your age 17,18,19";
+cin>>age;
+switch (age){
+case 17:
+cout<<"you are funny"<<endl;
+break;
+
+case 18:
+cout<<"show your CNIC"<<endl;
+break;
+
+case 19:
+cout<<"you are big boss"<<endl;
+
+default:
+cout<<"no special cases"<<endl;
+break;
 }
+cout<<"done with switch case";
 return 0;
-} 
+}
