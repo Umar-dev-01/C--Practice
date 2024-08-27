@@ -88,7 +88,7 @@ cout<<"you can enjoy all time with our group"<<endl;
 
 
 //                                                    "switch case statment"
-int age;
+/*int age;
 cout<<"enter your age 17,18,19";
 cin>>age;
 switch (age){
@@ -107,6 +107,13 @@ default:
 cout<<"no special cases"<<endl;
 break;
 }
-cout<<"done with switch case";
+cout<<"done with switch case";*/
+
+
+     //                                                     "for loop"                                                
+   for (int i=1; i<=40; i++)
+   {
+   cout<<i<<endl;  
+   }                                                                                               
 return 0;
 }
