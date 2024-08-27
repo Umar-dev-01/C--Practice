@@ -1,8 +1,8 @@
 #include <iostream>
 #include <iomanip>
 using namespace std;
-int main() 
-{
+
+int main() {
  //int num1, num2;
 // cout<<"enter the the value of num1:\n";
  //cin>>num1;
@@ -68,9 +68,23 @@ int main()
 //cout<<"enter the value of d with setW "<<setw(5)<<d<<endl;
 
 //                                                   "operater precedence"
-int a=41,b=8;
-int c = (((a*4)+b)-5);
- cout<<c;
-    return 0;
-}
+//int a=41,b=8;
+//int c = (((a*4)+b)-5);
+// cout<<c;
 
+//                                                      "if else statment"
+int age;
+
+cout<<"tell me your age"<<endl;
+cin>>age;
+if(age<19){
+cout<<"you are not elligible in our party"<<endl;
+}
+else if(age==19){
+cout<<"ok.but few times"<<endl;
+}
+ else {
+cout<<"you can enjoy all time with our group"<<endl;
+}
+return 0;
+} 
