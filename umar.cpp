@@ -111,9 +111,9 @@ cout<<"done with switch case";*/
 
 
      //                                                     "for loop"                                                
-   for (int i=1; i<=40; i++)
+   /*for (int i=1; i<=40; i++)
    {
    cout<<i<<endl;  
-   }                                                                                               
+   } */                                                                                              
 return 0;
 }
