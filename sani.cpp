@@ -9,14 +9,24 @@ int main() {
    cout<<i<<endl;  
    }*/   
 
-    //                                                ""  
-    int i=0; 
+    //                                                "break & if statment"  
+    /*int i=0; 
     for(int i = 0; i < 40; i++)
     {
     if(i==25){
     break;
     }
     cout<<i<<endl;
-    }                                                                                    
+    }   */
+
+    //                                                    "continue statment"
+    int i=0;
+    for(int i = 0; i < 40; i++)
+    {
+    if(i==1){
+    continue;
+    }
+    cout<<i<<endl;  
+    }                                                                           
 return 0;
 }
