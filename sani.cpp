@@ -29,18 +29,47 @@ int main() {
     cout<<i<<endl;  
     } */       
 
-   //                                                            "address of operator"
+   //                                                      "address of operator"
    /*int a= 5;
    int* b = & a;
 cout<<"the address of a is" <<&a<<endl;
 cout<<"the address of b is" <<b<<endl;*/
 
-//                                                               "value operator"
-int a= 5;
+//                                                             "value operator"
+/*int a= 5;
    int* b = & a;
 cout<<"the address of a is" <<&a<<endl;
 cout<<"the address of b is" <<b<<endl;
 // value operator
-cout<<"the value od address b is"<<*b<<endl;
+cout<<"the value od address b is"<<*b<<endl;*/
+
+//                                                                "array "
+//array example
+int marks[] ={41,85,7,41};
+
+/*int mathMarks[4];
+mathMarks[0]=58;
+mathMarks[1]=487;
+mathMarks[2]=265;
+mathMarks[3]=54;
+cout<<"these are math marks"<<endl;
+
+cout<<mathMarks[0]<<endl;
+cout<<mathMarks[1]<<endl;
+cout<<mathMarks[2]<<endl;
+cout<<mathMarks[3]<<endl;*/
+
+//        you can change the value of array
+/*marks[2]=445;
+cout<<"these are math marks"<<endl;
+cout<<mathMarks[0]<<endl;
+cout<<mathMarks[1]<<endl;
+cout<<mathMarks[2]<<endl;
+cout<<mathMarks[3]<<endl;*/
+//                                          convert to for loop
+for (int i=0; i<4; i++)
+{
+   cout<<"the value of marks"<<i<<" is "<<marks[i]<<endl;
+}
 return 0;
 }
