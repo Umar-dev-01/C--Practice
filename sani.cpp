@@ -30,9 +30,17 @@ int main() {
     } */       
 
    //                                                            "address of operator"
-   int a= 5;
+   /*int a= 5;
+   int* b = & a;
+cout<<"the address of a is" <<&a<<endl;
+cout<<"the address of b is" <<b<<endl;*/
+
+//                                                               "value operator"
+int a= 5;
    int* b = & a;
 cout<<"the address of a is" <<&a<<endl;
 cout<<"the address of b is" <<b<<endl;
+// value operator
+cout<<"the value od address b is"<<*b<<endl;
 return 0;
 }
