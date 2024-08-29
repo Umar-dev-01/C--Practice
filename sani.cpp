@@ -4,7 +4,7 @@
 #include <math.h>
 using namespace std;
 
-int main() {
+//int main() {
    /* for (int i=1; i<=40; i++)
    {
    cout<<i<<endl;  
@@ -86,7 +86,7 @@ cout<<mathMarks[3]<<endl;*/
 
 
 //                                              "pointers and arrays"
-int i=0;
+/*int i=0;
 int marks[] ={41,85,7,41};
 for (int i=0; i<4; i++)
 {
@@ -96,7 +96,22 @@ int* p = marks;
 cout<<"the value of *p is "<<p<<endl;
 cout<<"the value of *(p+1) is "<<(p+1)<<endl;
 cout<<"the value of *(p+2) is "<<(p+2)<<endl;
-cout<<"the value of *(p+3) is "<<(p+3)<<endl;
+cout<<"the value of *(p+3) is "<<(p+3)<<endl;*/
 
+//                                                 "structs"
+struct employee
+{
+   int eId;
+   char favchar;
+   float salary;
+};
+int main (){
+struct employee umar;
+umar.eId = 1;
+umar.favchar= 's';
+umar.salary=2500000;
+cout<<"the value is "<<umar.eId<<endl;
+cout<<"the value is "<<umar.favchar<<endl;
+cout<<"the value is "<<umar.salary<<endl;
 return 0;
 }
