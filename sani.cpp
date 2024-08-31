@@ -1,7 +1,7 @@
 //                                                      "for loop"
 #include <iostream>
-#include <iomanip>
-#include <math.h>
+//#include <iomanip>
+//#include <math.h>
 using namespace std;
 
 //int main() {
@@ -99,7 +99,7 @@ cout<<"the value of *(p+2) is "<<(p+2)<<endl;
 cout<<"the value of *(p+3) is "<<(p+3)<<endl;*/
 
 //                                                 "structs"
-struct employee
+/*struct employee
 {
    int eId;
    char favchar;
@@ -112,6 +112,19 @@ umar.favchar= 's';
 umar.salary=2500000;
 cout<<"the value is "<<umar.eId<<endl;
 cout<<"the value is "<<umar.favchar<<endl;
-cout<<"the value is "<<umar.salary<<endl;
+cout<<"the value is "<<umar.salary<<endl;*/
+
+//                                                 "functions"
+int sum (int a, int b) {
+int c =a+b;
+return c;
+}
+int main(){
+int num1, num2;
+cout<<"enter first number"<<endl;
+cin>>num1;
+cout<<"enter num 2"<<endl;
+cin>>num2;
+cout<<"total num of sum "<<sum(num1,num2);
 return 0;
 }
