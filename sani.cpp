@@ -4,7 +4,7 @@
 //#include <math.h>
 using namespace std;
 
-//int main() {
+int main() {
    /* for (int i=1; i<=40; i++)
    {
    cout<<i<<endl;  
@@ -115,7 +115,7 @@ cout<<"the value is "<<umar.favchar<<endl;
 cout<<"the value is "<<umar.salary<<endl;*/
 
 //                                                 "functions"
-int sum (int a, int b) {
+/*int sum (int a, int b) {
 int c =a+b;
 return c;
 }
@@ -126,5 +126,93 @@ cin>>num1;
 cout<<"enter num 2"<<endl;
 cin>>num2;
 cout<<"total num of sum "<<sum(num1,num2);
+return 0;
+}
+
+
+
+
+
+
+
+#include <iostream> 
+Using namespace std;  
+int main() {    
+    double num1=40, num2=30;     
+    char operation;  
+        cout << "Result: " << num1 + num2 << endl;         
+        cout << "Result: " << num1 - num2 << endl;        
+         num1++;         cout << "Result: " << num1 * num1 << endl;         
+         cout << "Result: " << num1 / num2 << endl;        
+          num2--;         
+          cout << "Value of num1 and num2 is”<<num1<<” - ”<< num2 << endl;  
+}  
+                "Output"   
+                Result:70
+                Result:10
+                Result:1230
+                Result:1 
+                Value of num1 and num2 is 41-29
+
+
+
+
+                • Ahmad=’Y’ 
+                • Pool= “24 foot deep” 
+                • isLoggedin= true 
+                • Salary= 25928.93 
+                • milesCovered= 23.9040225209489320942393423948239823 
+                • lightYears= 939,429,203,292 
+                • Temperature= -27.234 
+                                     "result"
+  char Ahmad=’Y’ 
+string Pool= “24 foot deep” 
+  bool isLoggedin= true 
+   float Salary= 25928.93  
+  double milesCovered= 23.9040225209489320942393423948239823 
+  long lightYears= 939,429,203,292 
+   float Temperature= -27.234 
+
+
+ How do you output “Hello World!” on the screen. Also write a comment in the same program as
+  “If I don’t get it, I will learn it again and again, unit I don’t get it” 
+                                       "code"
+ {
+ //If I don’t get it, I will learn it again and again, unit I don’t get it
+ cout<<"hello world";
+  }
+
+
+#include <iostream> Using namespace std; int main() {    
+   int num = 82;    
+    if (num % 7 == 0) {         
+    cout << num << " is okay." << endl;     
+  } else {        
+   cout << num << " is not okay." << endl
+   }
+   }
+                                         "out put"
+   82 is not okay.
+
+
+
+
+
+
+
+   Q no 2: Write a program where a program allows the user to input a decimal number and the program 
+   prints out that number
+                                                "code"
+{
+int a;
+cout<<"enter the value of a"<<endl;
+cin>>a;
+cout<<"Ans = "<<a;
+    }
+                                "output
+enter the value of a
+1.05
+Ans = 1*/
+cout<<"k hal a";
 return 0;
 }
