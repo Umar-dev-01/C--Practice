@@ -213,6 +213,66 @@ cout<<"Ans = "<<a;
 enter the value of a
 1.05
 Ans = 1*/
-cout<<"k hal a";
-return 0;
+//cout<<"k hal a";
+// Write a program that uses switch case, where user is displayed with the menu to select options first. Option should include Islamabad, Peshawar, Lahore, Karachi and Exit. If user select Islamabad you display that “Capital of Pakistan”, Peshawar should display “Pashtuns Land”, Lahore should “Lassi Peeso” and Karachi should “Mobile nikal ******” and for Exit, the program should exit. If user select any other choice display “Invalid entry! Exiting” and then exit.  
+   //Ans:
+          // {
+  /*char a;
+       cout<<"enter your favorite city! L.lahore,  I.ISB,  P.peshawar,  K.karachi "<<endl;
+     cout<<"enter one charcter l,i,p,k"<<endl;
+                 cin>>a;
+                   switch(a){
+
+   case 'l':
+  cout<<"Lassi Peeso"<<endl;
+ break;
+           
+case 'i':
+cout<<"Capital of Pakistan"<<endl;
+break;
+
+case 'p':
+cout<<"Pashtuns  C.B Land"<<endl;
+break;
+
+case 'k':
+cout<<"Mobile nikal bhosri k"<<endl;
+break;
+
+default :
+cout<<"en nae pssand tan pindi a ja moj krsion"<<endl;
+break;
 }
+return 0;
+}*/
+ 
+    
+    char a; 
+      cout << "chose the button"<<endl;
+      cout << "C Department of Computing"<<endl;
+      cout << "S Department of Software Engineering"<<endl;
+      cout << "E Engineering Department"<<endl;
+      cin >>a;
+       switch(a){
+
+      case 'c':
+      cout<<"Computing Faculty teaches CS and AI"<<endl;
+      break;
+              
+       case 's':
+      cout << "Software Engineering Faculty teaches SE and IT"<<endl;
+      break;
+
+      case 'e':
+      cout << "Engineering Faculty teaches CE and EE "<<endl;
+      break;
+
+      default : 
+      cout << "Invalid entry! Exiting"<<endl;
+      break;
+        }
+        }
+
+
+
+
