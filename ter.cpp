@@ -103,7 +103,7 @@ while(a>=num){
     a--;
 }
 }
-*/
+
 
 
 #include<iostream>
@@ -118,6 +118,104 @@ while(stud_replay!=stdenQues_entery){
 }
 cout<<"Good beta g abi class mn beth skty ho";
 }
+
+
+
+
+
+Counting to N: Take a number N as input and print numbers from 1 to N using a while loop
+#include<iostream>
+using namespace std;
+int main(){
+    int N, a=1;
+    cout<<"enter your number"<<endl;;
+    cin>>N;
+    while(N>=a){
+        cout<<a<<" ";
+        a++;
+    }}
+
+
+
+    Even Numbers Printer: Print all even numbers between 1 and 50 using a while loop./
+    #include<iostream>
+    using namespace std;
+    int main(){
+int num=2;
+while(num<=50){
+    cout<<num<<" ";
+    num+=2;
+}
+    }
+
+
+
+Sum of First N Natural Numbers: Take N as input and find the sum of the first
+ N natural numbers using a while loop. 
+    #include<iostream>
+    using namespace std;
+    int main(){
+int i, sum;
+cout<<"enter your number"<<endl;
+cin>>i;
+while (i!=0)
+{
+   sum=sum+=i;
+   i--;
+}
+cout<<sum<<endl;
+    }
+
+
+
+Multiplication Table: Take a number as input and print its multiplication table
+ up to 10 using a while loop. 
+ #include<iostream>
+ using namespace std;
+ int main(){
+    int a, i=1;
+    cout<<"enter the number who u want print  multiplication table"<<endl;
+    cin>>a;
+while (i<=10)
+{
+    cout<<a*i<<endl;
+    i++;
+}}
+
+
+
+Reverse Countdown: Take a positive number as input and print a countdown from that
+ number to 0 using a while loop.*/
+ #include<iostream>
+ using namespace std;
+ int main(){
+    int num;
+    cout<<"enter uor number"<<endl;
+    cin>>num;
+    while(num>0){
+        cout<<num<<endl;
+        num--;
+    }
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
