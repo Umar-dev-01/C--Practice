@@ -93,7 +93,7 @@ while (i<=5)
 }
 
 
-Write a C++ program using a while loop to print numbers from 10 to 1.*/
+Write a C++ program using a while loop to print numbers from 10 to 1.
 #include<iostream>
 using namespace std;
 int main(){
@@ -103,6 +103,23 @@ while(a>=num){
     a--;
 }
 }
+*/
+
+
+#include<iostream>
+using namespace std;
+int main(){
+char stud_replay, stdenQues_entery='y';
+cout<<"kl mama ko sath ly k ana wrna class mn nae bethny don ga lao gy ya nae (y/n)"<<endl;
+cin>>stud_replay;
+while(stud_replay!=stdenQues_entery){
+    cout<<"keon nae lao gy mn ny bola mama ko ly k ana hy. lao gy ya nae (y/n)"<<endl;
+    cin>>stud_replay;
+}
+cout<<"Good beta g abi class mn beth skty ho";
+}
+
+
 
 
 
