@@ -112,12 +112,49 @@ cout<<x*i<<endl;
 } 
 }
 
-Write a program to count the number of digits in a given number using a for loop.*/
+Write a program to calculate the sum of first n natural numbers using a for loop.
 #include<iostream>
 using namespace std;
 int main (){
-int         
-
-
-
+int  a,sum;
+cout<<"enter the number"<<endl;
+cin>>a;
+for (int i = 1; i<=a; i++)
+{
+   sum+=i;
 }
+       cout<<sum;
+}
+ Write a program to print all numbers from 1 to n using a for loop.
+ #include<iostream>
+ using namespace std;
+ int main (){
+ int  a,sum;
+ cout<<"enter the number"<<endl;
+ cin>>a;
+ for (int i = 1; i<=a; i++){
+    cout<<i<<" ";
+ }
+ }
+ Write a program to print the multiplication table of a given number using a for loop.*/
+ #include<iostream>
+ using namespace std;
+ int main (){
+ int  a;
+ cout<<"enter the number"<<endl;
+ cin>>a;
+ for (int i = 1; i<=a; i++){
+
+ }}
+
+
+
+
+
+
+
+
+
+
+
+
