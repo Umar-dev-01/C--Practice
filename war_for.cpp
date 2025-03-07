@@ -99,14 +99,25 @@ for(int i=2; i<=a; i+=2){
 }
 cout<<sum;
 }
-Write a program to print the multiplication table of a given number in reverse order using a for loop.*
+Write a program to print the multiplication table of a given number in reverse order using 
+a for loop.
+#include<iostream>
+using namespace std;
+int main (){
+int x;
+cout<<"enter the number"<<endl;
+cin>>x;
+for (int i=10; i>=1; i--){
+cout<<x*i<<endl;
+} 
+}
 
- 
+Write a program to count the number of digits in a given number using a for loop.*/
+#include<iostream>
+using namespace std;
+int main (){
+int         
 
 
 
-
-
-
-
-
+}
