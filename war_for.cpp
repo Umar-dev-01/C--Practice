@@ -267,9 +267,18 @@ for(int i=5; i>=1; i--){
     }cout<<endl;
 }} 
 
-9️⃣ Print a pyramid pattern of stars.*/
+🔟 Print multiplication tables from 1 to n (user-defined n)..
 #include <iostream>
 using namespace std;
     
 int main(){
-
+    int a;
+cout<<"enter your number";
+cin>>a;
+for(int i=1; i<=a; i++){
+    for(int j=1; j<=10; j++){
+    cout<<i*j<<" ";
+    }cout<<endl;
+}
+}
+1️⃣1️⃣ Find all prime numbers between 1 and n.*/
