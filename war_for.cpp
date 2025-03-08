@@ -136,25 +136,140 @@ for (int i = 1; i<=a; i++)
     cout<<i<<" ";
  }
  }
- Write a program to print the multiplication table of a given number using a for loop.*/
- #include<iostream>
+A program that prints multiplication tables from 1 to 3.
+ #include <iostream>
  using namespace std;
- int main (){
- int  a;
- cout<<"enter the number"<<endl;
- cin>>a;
- for (int i = 1; i<=a; i++){
+ 
+ int main() {
+    for(int i=1; i<=3; i++){
+        for(int j=1; j<=5; j++){
+            cout<<i*j<<" ";
+        }
+        cout<<endl;
+    }}
+A program that takes a number as input and prints a square of stars with that size.
+    #include <iostream>
+    using namespace std;
+    
+    int main() {
+     for (int i = 1; i <= 4; i++)
+     {
+        for (int j = 1; j <=4; j++)
+        {
+           cout<<" *";
+        }
+        cout<<endl;
+     }}
+A program that prints a right-angled triangle using stars.
+     #include <iostream>
+     using namespace std;
+     
+     int main() {
+        for(int i=1; i<=5; i++){
+            for(int j=1; j<=i; j++ ){
+            cout<<"* ";
+        }
+        cout<<endl;
+      }}
+      
+Print numbers from 1 to 100.          
+#include <iostream>
+using namespace std;
 
- }}
+int main() {
+    for(int i=1; i<=100; i++){
+        cout<<i<<" ";
+    }
+}  
+2️⃣ Print even numbers between 1 and 50. 
+#include <iostream>
+using namespace std;
 
+int main() {
+    for(int i=2; i<=50; i+=2){
 
+        cout<<i<<" ";
+    }
+}
+3️⃣ Calculate the sum of the first n natural numbers (input from user).
+#include <iostream>
+using namespace std;
 
+int main(){
+    int m, sum;
+    cout<<"enter the number";
+    cin>>m;
+    for(int i=1; i<=m; i++){
+        sum+=i;
+    }
+    cout<<sum;
+}
+4️⃣ Reverse count from n to 1 (user-defined n).
+#include <iostream>
+using namespace std;
 
+int main(){
+    int m;
+    cout<<"enter the number";
+    cin>>m;
+    for(int i=1; i<=m; m--){
+cout<<m<<endl;
+    }}
+    5️⃣ Print the factorial of a given number.
+ #include <iostream>
+using namespace std;
+    
+int main(){
+int m, fact=1;
+ cout<<"enter the number";
+ cin>>m;
+for(int i=1; i<=m; m--){
+    fact*=m;
+}
+cout<<fact;
+}
+6️⃣ Print a square pattern of stars (n x n).
+#include <iostream>
+using namespace std;
+    
+int main(){
+    for (int i = 1; i <=4; i++)
+    {
+        for(int j=1; j<=4; j++){
+            cout<<"* ";
+        }
+       cout<<endl;
+    }
+    
+}
+7️⃣ Print a right-angled triangle pattern./
+#include <iostream>
+using namespace std;
+    
+int main(){
+    for (int i = 1; i <=5; i++)
+    {
+  for (int j = 1; j<=i; j++)
+  {
+  cout<<"* ";
+  }
+  cout<<endl;
+    }   
+}
+8️⃣ Print an inverted right-angled triangle.
+#include <iostream>
+using namespace std;
+    
+int main(){
+for(int i=5; i>=1; i--){
+    for(int j=1; j<=i  ; j++){
+        cout<<"* ";
+    }cout<<endl;
+}} 
 
-
-
-
-
-
-
+9️⃣ Print a pyramid pattern of stars.*/
+#include <iostream>
+using namespace std;
+    
+int main(){
 
