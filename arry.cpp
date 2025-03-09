@@ -180,7 +180,9 @@ cout<<"invalid entery";
         }
         cout<<endl;}
                 }
-  3. Restaurant Menu System (switch case)
+  
+  
+                3. Restaurant Menu System (switch case)
 A restaurant has 5 menu items with fixed prices stored in an array.
 Ask the user to enter the menu item number (1-5).
 Use a switch case to display the selected item's name and price.
@@ -222,7 +224,7 @@ cout<<"enter the menu item number (1-5)"<<endl;
  A business tracks its daily sales for 7 days in an array.
  Ask the user to enter sales for each day.
  Use a while loop to calculate the total sales of the week.
- Display the total sales at the end.*/
+ Display the total sales at the end.
  #include<iostream>
  using namespace std;
  int main(){
@@ -237,4 +239,32 @@ cout<<"enter the menu item number (1-5)"<<endl;
   }
     cout<<"totalSales is "<<totalSales;
  }
- 
+
+ . Count Even and Odd Numbers in a Dataset (while loop + if-else)
+A company collects customer feedback scores (10 numbers) and stores them in an array.
+Use a while loop to count how many scores are even and how many are odd.
+Display the total number of even and odd scores separately.*/
+#include<iostream>
+using namespace std;
+int main(){
+    int i, evenCount, oddCount, num[10];
+
+    while (i<10) {
+        cout<<"Enter customer feedback score "<<(i+1)<<": ";
+        cin>>num[i]; 
+        i++;
+    }
+    i=0; 
+    while (i<10) {
+        if (num[i]%2==0) {
+            evenCount++;
+        } else {
+            oddCount++;
+        }
+        i++;
+    }
+    cout<<"Total even scores: " <<evenCount<<endl;
+    cout<<"Total odd scores: " <<oddCount<<endl;
+}
+
+  
