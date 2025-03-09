@@ -158,7 +158,7 @@ cout<<"invalid entery";
         80-89 → B
         70-79 → C
         Below 70 → Fail
-        Display each student's marks and grade..*/
+        Display each student's marks and grade..
          #include<iostream>
           using namespace std;
             int main(){
@@ -180,4 +180,46 @@ cout<<"invalid entery";
         }
         cout<<endl;}
                 }
-                
+  3. Restaurant Menu System (switch case)
+A restaurant has 5 menu items with fixed prices stored in an array.
+Ask the user to enter the menu item number (1-5).
+Use a switch case to display the selected item's name and price.
+If the input is invalid, display an error message. */              
+#include<iostream>
+using namespace std;
+int main(){
+  int prices, menuItem[5]={625,875,500,1000,25};
+cout<<"enter the menu item number (1-5)"<<endl;
+   cin>>prices;
+
+   switch(prices){
+   case 1:
+   cout<<"1 kilo ata "<<menuItem[0]<<endl;
+   break;
+
+   case 2:
+   cout<<"kilo Gorr "<<menuItem[1]<<endl;
+   break;
+
+   case 3:
+   cout<<"soji 1 kilo "<<menuItem[2]<<endl;
+   break;
+
+   case 4:
+   cout<<"jameel sweets aly golab jamon "<<menuItem[3]<<endl;
+   break;
+
+   case 5:
+   cout<<"choie aly Norry ala smosa "<<menuItem[4]<<endl;
+   break;
+    
+   default :
+   cout<<"bchy akhian khol k disply prrh ty enteri mar"<<endl;
+ }}
+
+
+
+
+
+
+ 
