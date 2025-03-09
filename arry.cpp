@@ -184,7 +184,7 @@ cout<<"invalid entery";
 A restaurant has 5 menu items with fixed prices stored in an array.
 Ask the user to enter the menu item number (1-5).
 Use a switch case to display the selected item's name and price.
-If the input is invalid, display an error message. */              
+If the input is invalid, display an error message.               
 #include<iostream>
 using namespace std;
 int main(){
@@ -215,11 +215,26 @@ cout<<"enter the menu item number (1-5)"<<endl;
     
    default :
    cout<<"bchy akhian khol k disply prrh ty enteri mar"<<endl;
- }}
-
-
-
-
-
-
+ }}. 
+ 
+ 
+ Find the Total Sales of a Week (while loop)
+ A business tracks its daily sales for 7 days in an array.
+ Ask the user to enter sales for each day.
+ Use a while loop to calculate the total sales of the week.
+ Display the total sales at the end.*/
+ #include<iostream>
+ using namespace std;
+ int main(){
+  int days[7];
+  int totalSales,i;
+  while (i<7)
+  {
+   cout<<"enter your "<<i+1<<" sale ";
+   cin>>totalSales;
+   totalSales+=i;
+   i++;
+  }
+    cout<<"totalSales is "<<totalSales;
+ }
  
