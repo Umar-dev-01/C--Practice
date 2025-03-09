@@ -124,14 +124,29 @@ Print all the elements of the array.
 
     Find the Sum of Array Elements:
     Declare an array of size 6 and initialize it with numbers.
-    Calculate and print the sum of all elements in the array.*/
+    Calculate and print the sum of all elements in the array.
 #include<iostream>
     using namespace std;
     int main(){
-    int num[6]={5,8,4,6,7};
-
+    int sum,num[6]={5,8,4,6,7,1};
+for (int i = 0; i < 6; i++)
+{
+  sum+=num[i];
+}
+cout<<" your sum is "<<sum;
     }
 
-
-
-
+    1. Store and Check Product Prices (if-else)
+    A store sells 5 different products, and their prices are stored in an array.*/
+    #include<iostream>
+    using namespace std;
+    int main(){
+       float products[5]={52.20,87,65,21.00,63};
+        int a;
+        cout<<"enter your product number (1-5)"<<endl;
+        cin>>a;
+        if (a>=1 && a<=5){
+            cout<<"your total price is "<<products[a-1];
+        }else{
+cout<<"invalid entery";
+        }}
