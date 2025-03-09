@@ -26,7 +26,7 @@ int main(){
 int num[]={5,6,8,1,2};
 sum=num[0]+num[1]+num[2]+num[3]+num[4];
 cout<<sum;
-}*/
+}
 
 
 
@@ -39,4 +39,69 @@ int main(){
        sum+=num[i];
     }
     cout<<sum;
+}*/
+
+
+
+
+/*Declare an array of size 5.
+Initialize it with any five numbers.
+Print all the elements of the array.
+#include<iostream>
+using namespace std;
+int main(){
+    int num[5]={2,6,5,4,3};
+    for (int  i = 0; i<5; i++)
+    {
+       cout<<num[i]<<endl;
+    }
+    
 }
+Take input from the user for an array of size 3.
+Store the values in an array.
+Display the entered values.
+#include<iostream>
+using namespace std;
+int main(){
+    int arry[3];
+    for (int i = 0; i < 3; i++)
+    {
+       cout<<"Enter your value of "<<i+1<<": ";
+       cin>>arry[i];
+
+    }
+    cout<<endl;
+    for (int i = 0; i < 3; i++)
+    {
+       cout<<"your"<<i+1<<" value of arry is "<<arry[i]<<endl;
+    }}
+    Sum of Array Elements:
+
+    Declare an array of size 4 and initialize it with numbers.
+    Find and print the sum of all elements in the array.
+    #include<iostream>
+    using namespace std;
+    int main(){
+        int sum,arry[4]={2,87,5,4};
+        for (int i = 0; i < 4; i++)
+        {
+            sum+=arry[i];
+        }
+        cout<<sum;
+        }
+Declare an array of size 5.
+Initialize it with any five numbers.
+Print all the elements of the array.*/
+#include<iostream>
+    using namespace std;
+    int main(){
+        int arry[5];
+        for(int i=0)
+    }
+
+
+
+
+
+
+
