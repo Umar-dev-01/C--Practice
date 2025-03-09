@@ -138,7 +138,7 @@ cout<<" your sum is "<<sum;
 
     1. Store and Check Product Prices (if-else)
     A store sells 5 different products, and their prices are stored in an array.*/
-    #include<iostream>
+    /*#include<iostream>
     using namespace std;
     int main(){
        float products[5]={52.20,87,65,21.00,63};
@@ -150,3 +150,34 @@ cout<<" your sum is "<<sum;
         }else{
 cout<<"invalid entery";
         }}
+       2. Student Marks and Grade Calculation (if-else)
+        A class has 4 students, and their marks in a subject are stored in an array.
+        Take input for the marks of all 4 students.
+        Use if-else to assign grades based on marks:
+        90+ → A
+        80-89 → B
+        70-79 → C
+        Below 70 → Fail
+        Display each student's marks and grade..*/
+         #include<iostream>
+          using namespace std;
+            int main(){
+        int students[4];
+        cout<<"Enter your marks"<<endl;
+        for(int i=0; i<4; i++){
+            cin>>students[i];
+           }
+        for(int i=0; i<4; i++){
+            
+        if(students[i]>=90){
+            cout<<"Grade A";
+        }else if(students[i]>=80 && students[i]<=89){
+           cout<<"Grade B";
+        } else if(students[i]>=70 && students[i]<=79){
+            cout<<"Grade C";
+        }else{
+            cout<<"You are fial";
+        }
+        cout<<endl;}
+                }
+                
