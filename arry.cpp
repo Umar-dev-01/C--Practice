@@ -243,12 +243,11 @@ cout<<"enter the menu item number (1-5)"<<endl;
  . Count Even and Odd Numbers in a Dataset (while loop + if-else)
 A company collects customer feedback scores (10 numbers) and stores them in an array.
 Use a while loop to count how many scores are even and how many are odd.
-Display the total number of even and odd scores separately.*/
+Display the total number of even and odd scores separately.
 #include<iostream>
 using namespace std;
 int main(){
     int i, evenCount, oddCount, num[10];
-
     while (i<10) {
         cout<<"Enter customer feedback score "<<(i+1)<<": ";
         cin>>num[i]; 
@@ -267,4 +266,16 @@ int main(){
     cout<<"Total odd scores: " <<oddCount<<endl;
 }
 
-  
+
+A shop has 5 products, and their stock quantities are stored in an array.
+Ask the user to enter the product number (1-5).
+Check if the selected product is in stock (quantity > 0) or out of stock (quantity = 0) using if-else.
+Display the stock status accordingly.
+*/
+#include<iostream>
+using namespace std;
+int main(){
+    int inputProduct, products[5]={1,2,3,4,5};
+    cout<<"Enter your product number (1-5) ";
+    cin>>inputProduct;
+}
