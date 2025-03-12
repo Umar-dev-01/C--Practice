@@ -267,15 +267,18 @@ int main(){
 }
 
 
-A shop has 5 products, and their stock quantities are stored in an array.
-Ask the user to enter the product number (1-5).
-Check if the selected product is in stock (quantity > 0) or out of stock (quantity = 0) using if-else.
-Display the stock status accordingly.
+1️⃣ Find the Sum of Two Numbers
+Write a function named addNumbers that takes two integers as arguments and returns their sum.
+📌 Example Input: addNumbers(5, 3)
+📌 Expected Output: 8
 */
 #include<iostream>
 using namespace std;
-int main(){
-    int inputProduct, products[5]={1,2,3,4,5};
-    cout<<"Enter your product number (1-5) ";
-    cin>>inputProduct;
+
+int addNumbers(int a, int b) {
+    return a + b; 
+}
+int main() {
+    int a = 3, b = 4;
+    cout << addNumbers (a , b); 
 }
