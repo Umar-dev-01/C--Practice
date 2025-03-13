@@ -18,8 +18,8 @@ int main(){
     }
 }*/
 
-/*Write a program that finds the sum of all elements in an array of 5 numbers.
-#include<iostream>
+//*Write a program that finds the sum of all elements in an array of 5 numbers.
+/*#include<iostream>
 using namespace std;
 int main(){
     int sum; 
@@ -39,12 +39,12 @@ int main(){
        sum+=num[i];
     }
     cout<<sum;
-}*/
+}
 
 
 
 
-/*Declare an array of size 5.
+//Declare an array of size 5.
 Initialize it with any five numbers.
 Print all the elements of the array.
 #include<iostream>
@@ -136,9 +136,9 @@ for (int i = 0; i < 6; i++)
 cout<<" your sum is "<<sum;
     }
 
-    1. Store and Check Product Prices (if-else)
-    A store sells 5 different products, and their prices are stored in an array.*/
-    /*#include<iostream>
+    1. Store and Check Product Prices (if-else)*/
+   /* A store sells 5 different products, and their prices are stored in an array./
+    /#include<iostream>
     using namespace std;
     int main(){
        float products[5]={52.20,87,65,21.00,63};
@@ -243,7 +243,7 @@ cout<<"enter the menu item number (1-5)"<<endl;
  . Count Even and Odd Numbers in a Dataset (while loop + if-else)
 A company collects customer feedback scores (10 numbers) and stores them in an array.
 Use a while loop to count how many scores are even and how many are odd.
-Display the total number of even and odd scores separately.
+Display the total number of even and odd scores separately.*/
 #include<iostream>
 using namespace std;
 int main(){
@@ -267,18 +267,3 @@ int main(){
 }
 
 
-1️⃣ Find the Sum of Two Numbers
-Write a function named addNumbers that takes two integers as arguments and returns their sum.
-📌 Example Input: addNumbers(5, 3)
-📌 Expected Output: 8
-*/
-#include<iostream>
-using namespace std;
-
-int addNumbers(int a, int b) {
-    return a + b; 
-}
-int main() {
-    int a = 3, b = 4;
-    cout << addNumbers (a , b); 
-}
