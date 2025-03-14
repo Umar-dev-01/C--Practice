@@ -270,7 +270,7 @@ Write a function named isLeapYear that takes an integer (year) as an argument
 and prints whether the year is "Leap Year" or "Not a Leap Year".
 
 📌 Example Input: isLeapYear(2024)
-📌 Expected Output: "Leap Year"*/
+📌 Expected Output: "Leap Year"
 
 #include<iostream>
 using namespace std;
@@ -288,4 +288,23 @@ int main(){
     cout<<"Must bi in 4 chracters ";
     cin>>x;
     isLeapYear(x);
+}
+
+Convert Celsius to Fahrenheit
+Write a function named celsiusToFahrenheit that takes a temperature in Celsius as an argument 
+and returns the equivalent temperature in Fahrenheit.
+📌 Formula: F = (C * 9/5) + 32
+📌 Example Input: celsiusToFahrenheit(0)
+📌 Expected Output: 32*/
+#include<iostream>
+using namespace std;
+
+double celsiusToFahrenheit(double  Celsius ){
+    return ( Celsius * 9/5) + 32;
+}
+int main(){
+    int a;
+    cout<<"enter your temperature in  Celsius ";
+    cin>>a;
+    cout<<celsiusToFahrenheit(a);
 }
