@@ -377,11 +377,11 @@ int main(){
 Write a function named factorial that takes an integer as an argument and returns its factorial.
 📌 Example Input: factorial(5)
 📌 Expected Output: 120
-📌 Explanation: 5! = 5 × 4 × 3 × 2 × 1 = 120*/
+📌 Explanation: 5! = 5 × 4 × 3 × 2 × 1 = 120
 #include<iostream>
 using namespace std;
 int factorial(int a){
-    int fact;
+    int fact=1;
     while(a>0){
         fact*=a;
         a--;
@@ -398,3 +398,22 @@ int main(){
         cout<<"factorial is "<<factorial(x);
     }
 }
+
+
+Find the Sum of Natural Numbers
+Write a function named sumNaturalNumbers that takes an integer n as an argument
+ and returns the sum of the first n natural numbers.
+
+📌 Formula:
+Sum=1+2+3+⋯+𝑛
+or
+Sum=𝑛×(𝑛+1)2S
+📌 Example Input: sumNaturalNumbers(5)
+📌 Expected Output: 15
+📌 Explanation:5+4+3+2+1=15
+
+
+
+
+
+                              es jesy or bhi krny hn 1 sy 2
