@@ -296,7 +296,7 @@ and returns the equivalent temperature in Fahrenheit.
 📌 Formula: F = (C * 9/5) + 32
 📌 Example Input: celsiusToFahrenheit(0)
 📌 Expected Output: 32*/
-#include<iostream>
+/*#include<iostream>
 using namespace std;
 
 double celsiusToFahrenheit(double  Celsius ){
@@ -308,3 +308,59 @@ int main(){
     cin>>a;
     cout<<celsiusToFahrenheit(a);
 }
+Convert Fahrenheit to Celsius
+Write a function named fahrenheitToCelsius that takes a temperature in Fahrenheit
+ as an argument and returns the equivalent temperature in Celsius.
+
+📌 Formula:
+C=(F−32)× 5/9
+​
+📌 Example Input: fahrenheitToCelsius(32)
+📌 Expected Output: 0
+#include<iostream>
+using namespace std;
+double fahrenheitToCelsius(double Fahrenheit){
+    return (Fahrenheit-32)* 5/9;
+}
+int main (){
+    int a;
+    cout<<"enter your temperture in Fahrenheit ";
+    cin>>a;
+    cout<<fahrenheitToCelsius(a);
+}
+
+1️⃣ Convert Kilometers to Miles
+Write a function named kmToMiles that takes a distance in kilometers as
+an argument and returns the equivalent distance in miles.
+
+📌 Formula:
+
+Miles=Kilometers×0.621371
+Miles=Kilometers×0.621371
+📌 Example Input: kmToMiles(10)
+📌 Expected Output: 6.21371
+
+#include<iostream>
+using namespace std;
+
+double kmToMiles(double kilometers){
+    return kilometers*0.621371;
+}
+int main(){
+    double a;
+    cout<<"enter your distance ";
+    cin>>a;
+    cout<<kmToMiles(a);
+}
+Convert Meters to Centimeters
+Write a function named metersToCentimeters that takes a length in meters as an argument and returns the equivalent length in centimeters.
+
+📌 Formula:
+
+Centimeters=Meters×100
+Centimeters=Meters×100
+📌 Example Input: metersToCentimeters(5)
+📌 Expected Output: 500*/
+
+#include<iostream>
+using namespace std;
