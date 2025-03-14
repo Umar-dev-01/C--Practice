@@ -353,14 +353,48 @@ int main(){
     cout<<kmToMiles(a);
 }
 Convert Meters to Centimeters
-Write a function named metersToCentimeters that takes a length in meters as an argument and returns the equivalent length in centimeters.
+Write a function named metersToCentimeters that takes a length in meters
+ as an argument and returns the equivalent length in centimeters.
 
 📌 Formula:
-
-Centimeters=Meters×100
 Centimeters=Meters×100
 📌 Example Input: metersToCentimeters(5)
-📌 Expected Output: 500*/
+📌 Expected Output: 500
 
 #include<iostream>
 using namespace std;
+double metersToCentimeters(double meters){
+    return meters*100;
+}
+int main(){
+    double a;
+    cout<<"enter your length in meters ";
+    cin>>a;
+    cout<<metersToCentimeters(a)<<" cm";
+}
+
+5️⃣ Find the Factorial of a Number
+Write a function named factorial that takes an integer as an argument and returns its factorial.
+📌 Example Input: factorial(5)
+📌 Expected Output: 120
+📌 Explanation: 5! = 5 × 4 × 3 × 2 × 1 = 120*/
+#include<iostream>
+using namespace std;
+int factorial(int a){
+    int fact;
+    while(a>0){
+        fact*=a;
+        a--;
+    }
+    return fact;
+}
+int main(){
+    int x;
+    cout<<"enter your numnber ";
+    cin>>x;
+    if(x<0){
+        cout<<"numer is negitive and not find the negitive factorial ";
+    }else{
+        cout<<"factorial is "<<factorial(x);
+    }
+}
