@@ -214,11 +214,78 @@ int main(){
 }
 
 Check If a Number is Positive, Negative, or Zero
-Write a function named checkNumber that takes an integer as an argument and prints whether the number is "Positive", "Negative", or "Zero".
+Write a function named checkNumber that takes an integer as an argument and prints whether 
+the number is "Positive", "Negative", or "Zero".
 📌 Example Input: checkNumber(-3)
-📌 Expected Output: Negative*/
+📌 Expected Output: Negative
 #include<iostream>
 using namespace std;
 
+void checkNumber(int a){
+    if(a>0){
+    cout<<"Positive number";
+}
+else if (a<0){
+    cout<<"Negitive number";
+}
+else{
+    cout<<"Number is zero";
+}
+
+}
+int main(){
+    int x;
+    cout<<"enter your number ";
+    cin>>x;
+    checkNumber(x);
+   
+}
 
 
+Check If a Number is Even or Odd
+Write a function named checkEvenOdd that takes an integer as an argument and prints whether the number is
+ "Even" or "Odd".
+
+📌 Example Input: checkEvenOdd(7)
+📌 Expected Output: "Odd"
+#include<iostream>
+using namespace std;
+
+void checkEvenOdd(int a){
+if (a>=0){
+    cout<<"this number is postive ";
+}else{
+    cout<<"this number is negitive ";
+}
+}
+int main (){
+    int x;
+    cout<<"enter your number ";
+    cin>>x;
+    checkEvenOdd(x);
+}
+
+Check If a Year is a Leap Year or Not
+Write a function named isLeapYear that takes an integer (year) as an argument 
+and prints whether the year is "Leap Year" or "Not a Leap Year".
+
+📌 Example Input: isLeapYear(2024)
+📌 Expected Output: "Leap Year"*/
+
+#include<iostream>
+using namespace std;
+
+void isLeapYear(int a) {
+    if(a%4==0){
+        cout<<"Leap year";
+    }else{
+        cout<<"Not a Leap Year";
+    }
+}
+int main(){
+    int x;
+    cout<<"Enter your year.";
+    cout<<"Must bi in 4 chracters ";
+    cin>>x;
+    isLeapYear(x);
+}
