@@ -412,8 +412,44 @@ Sum=𝑛×(𝑛+1)2S
 📌 Expected Output: 15
 📌 Explanation:5+4+3+2+1=15
 
+#include<iostream>
+using namespace std;
 
+int sumNaturalNumbers(int n){
+   return n*(n+1) /2;
+}
+int main(){
+    int a;
+    cout<<"enter your value ";
+    cin>>a;
+    cout<<sumNaturalNumbers(a);
+}
 
+Find the Product of Natural Numbers
+Write a function named productNaturalNumbers that takes an integer n as an argument
+ and returns the product (factorial) of the first n natural numbers.
 
+📌 Formula:
+Product=1×2×3×⋯×n
+or
+Product=𝑛!
+🔹 Example:
+Input: n = 5
+Output: 120 (since 1×2×3×4×5=120
+*/#include<iostream>
+using namespace std;
+int productNaturalNumbers(int n){
+    int product=1;
+    for(int i=1; i<=n; i++){
+        product*=i;
+    }
+    return product;
+}
+int main(){
+    int a;
+    cout<<"enter your numvber ";
+    cin>>a;
+    cout<<productNaturalNumbers(a)<<endl;
+}
 
-                              es jesy or bhi krny hn 1 sy 2
+Function to find the maximum of two numbers.*/
