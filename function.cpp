@@ -452,7 +452,7 @@ int main(){
     cout<<productNaturalNumbers(a)<<endl;
 }
 
-Function to find the maximum of two numbers.
+1. Function to find the maximum of two numbers.
 #include<iostream>
 using namespace std;
 
@@ -468,7 +468,7 @@ int main(){
     cout<<"Your maximum of two numbers is "<<maximum(a,b)<<endl;
     }
 
-    Function to check if a number is even or odd.
+  2. Function to check if a number is even or odd.
 #include<iostream>
 using namespace std;
 
@@ -486,6 +486,38 @@ void number(int o){
     cin>>a;
     number(a);
 }
-Function to calculate the square of a number.*/
+3. Function to calculate the square of a number./
+#include<iostream>
+using namespace std;
+
+int square(int a){
+    return a*a;
+}
+int main(){
+    int s;
+    cout<<"enter your number ";
+    cin>>s;
+    cout<<s<<" squre is "<<square(s)<<endl;
+}
+
+Function to return the sum of the first N natural numbers.
+#include<iostream>
+using namespace std;
+int result;
+int sumNnum(int a){
+    
+   for (int i=1; i<=a; i++){
+    result+=i;
+}
+return result;
+}
+int main(){
+int b;
+cout<<"enter your numer ";
+cin>>b;
+cout<<sumNnum(b)<<endl;
+}
+
+Function to check if a number is positive, negative, or zero using if-else.*/
 #include<iostream>
 using namespace std;
