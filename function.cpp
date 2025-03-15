@@ -436,7 +436,7 @@ Product=𝑛!
 🔹 Example:
 Input: n = 5
 Output: 120 (since 1×2×3×4×5=120
-*/#include<iostream>
+#include<iostream>
 using namespace std;
 int productNaturalNumbers(int n){
     int product=1;
@@ -452,4 +452,40 @@ int main(){
     cout<<productNaturalNumbers(a)<<endl;
 }
 
-Function to find the maximum of two numbers.*/
+Function to find the maximum of two numbers.
+#include<iostream>
+using namespace std;
+
+int maximum(int o, int p){
+    return o+p;
+}
+int main(){
+    int a,b;
+    cout<<"Enter your first value ";
+    cin>>a;
+    cout<<"Enter your second value ";
+    cin>>b;
+    cout<<"Your maximum of two numbers is "<<maximum(a,b)<<endl;
+    }
+
+    Function to check if a number is even or odd.
+#include<iostream>
+using namespace std;
+
+void number(int o){
+   if (o%2==0)
+   {
+    cout<<"number "<<o<<" is even";
+   }else{
+    cout<<"number "<<o<<" is odd";
+   }
+   }
+   int main(){
+    int a;
+    cout<<"enter your number ";
+    cin>>a;
+    number(a);
+}
+Function to calculate the square of a number.*/
+#include<iostream>
+using namespace std;
