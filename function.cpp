@@ -500,7 +500,7 @@ int main(){
     cout<<s<<" squre is "<<square(s)<<endl;
 }
 
-Function to return the sum of the first N natural numbers.
+4.  Function to return the sum of the first N natural numbers.
 #include<iostream>
 using namespace std;
 int result;
@@ -518,6 +518,21 @@ cin>>b;
 cout<<sumNnum(b)<<endl;
 }
 
-Function to check if a number is positive, negative, or zero using if-else.*/
+5. Function to check if a number is positive, negative, or zero using if-else.*/
 #include<iostream>
 using namespace std;
+
+void numer(int a){
+    if (a>0){
+    cout<<a<<" is poitive";
+}else if(a<0){
+    cout<<a<<" is negitive ";
+}else{
+    cout<<"your numer is zero ";
+}
+}int main(){
+    int b;
+    cout<<"enter your number ";
+    cin>>b;
+    numer(b);
+}
