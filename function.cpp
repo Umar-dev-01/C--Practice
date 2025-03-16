@@ -518,7 +518,7 @@ cin>>b;
 cout<<sumNnum(b)<<endl;
 }
 
-5. Function to check if a number is positive, negative, or zero using if-else.*/
+5. Function to check if a number is positive, negative, or zero using if-else.
 #include<iostream>
 using namespace std;
 
@@ -535,4 +535,26 @@ void numer(int a){
     cout<<"enter your number ";
     cin>>b;
     numer(b);
+}
+
+
+ 
+4. Function to reverse a number.*/
+#include<iostream>
+using namespace std;
+
+int reverseNum(int a){
+    int rev=0;
+while (a>0){
+rev=rev*10+(a%10);
+a=a/10;
+}
+return rev;
+}
+int main(){
+int c;
+cout<<"enter your numbers ";
+cin>>c;
+cout<<reverseNum(c)<<endl;    
+return 0;
 }
