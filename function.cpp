@@ -539,7 +539,7 @@ void numer(int a){
 
 
  
-4. Function to reverse a number.*/
+4. Function to reverse a number.
 #include<iostream>
 using namespace std;
 
@@ -558,3 +558,45 @@ cin>>c;
 cout<<reverseNum(c)<<endl;    
 return 0;
 }
+
+
+1️⃣ Write a function to count the number of digits in a given number.
+📌 Example: 12345 → Output: 5
+#include<iostream>
+using namespace std;
+
+int digits(int a){
+    int count=0;
+    while(a>0){
+a=a/10;
+count=count+1;
+    }
+return count;
+}
+int main(){
+    int c;
+    cout<<"enter your numbers ";
+    cin>>c;
+    cout<<digits(c)<<endl;    
+    return 0;
+    }
+2️⃣ Write a function to find the sum of all digits of a given number.
+
+ #include<iostream>
+using namespace std;  
+
+int digits(int a){
+int sum=0;
+while(a>0){
+sum=sum+(a%10);
+a=a/10;
+}
+return sum;
+}
+int main(){
+    int c;
+    cout<<"enter your numbers ";
+    cin>>c;
+    cout<<digits(c)<<endl;    
+    return 0;
+    }*/
