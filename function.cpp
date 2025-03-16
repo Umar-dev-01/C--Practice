@@ -625,7 +625,7 @@ int main(){
     return 0;
     }
 
-2. Function to calculate the factorial of a number.*/
+2. Function to calculate the factorial of a number.
 #include<iostream>
 using namespace std; 
 
@@ -643,3 +643,37 @@ int main(){
     cout<<factorial(c)<<endl;    
     return 0;
     }
+1️⃣ Write a function to calculate the product of digits of a given number.
+📌 Example:
+🔹 Input: 234
+🔹 Output: 2 × 3 × 4 = 24
+#include<iostream>
+using namespace std; 
+
+int product(int a){
+   int prod=1;
+while (a>0)
+{
+    prod*=(a%10);
+    a/=10;
+}
+return prod;
+}
+int main(){
+    int c;
+    cout<<"enter your numbers ";
+    cin>>c;
+    cout<<product(c)<<endl;    
+    return 0;
+    }
+    2️⃣ Write a function to count the number of even and odd digits in a given number.
+    📌 Example:
+    🔹 Input: 12345
+    🔹 Output: Even Digits = 2, Odd Digits = 3*/
+    #include<iostream>
+    using namespace std; 
+    
+    int product(int a){
+        
+    } 
+                       
