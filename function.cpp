@@ -601,7 +601,7 @@ int main(){
     return 0;
     }
 Write a function to find the difference between the sum of even and odd digits of a given number.
-📌 Example: 1234 → Output: (-2) (Even sum = 6, Odd sum = 8, Difference = 6 - 8 = -2)*/
+📌 Example: 1234 → Output: (-2) (Even sum = 6, Odd sum = 8, Difference = 6 - 8 = -2)
 #include<iostream>
 using namespace std; 
 
@@ -622,5 +622,24 @@ int main(){
     cout<<"enter your numbers ";
     cin>>c;
     cout<<diffEveOddNum(c)<<endl;    
+    return 0;
+    }
+
+2. Function to calculate the factorial of a number.*/
+#include<iostream>
+using namespace std; 
+
+int factorial(int a){
+int fact=1;
+for(int i=1; i<=a; i++){
+    fact*=i;
+}
+return fact;
+}
+int main(){
+    int c;
+    cout<<"enter your numbers ";
+    cin>>c;
+    cout<<factorial(c)<<endl;    
     return 0;
     }
