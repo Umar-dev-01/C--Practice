@@ -4,13 +4,37 @@ o Motorcycle: $0.05 per km
 o Car: $0.10 per km 
 o Truck: $0.20 per km The program should take a vehicle type and distance
  (e.g., 150 km) as input and compute the toll fee. */
+ #include<iostream>
+ using namespace std;
+ int main(){ 
+    int gadi;
+    cout<<"WELL COME TO CPEC Toll Plaza"<<endl;
+    cout<<"if you have Motorcycle to press 1 Car for press 2 Truck for press 3"<<endl;
+    cin>>gadi;
+    float km;
+    cout<<"How many kilometers did you drive? ";
+    cin>>km;
+switch(gadi){
+    case 1:
+    cout<<"Your Toatal Bill is "<<km*0.05;
+    break;
 
+    case 2:
+    cout<<"Your Toatal Bill is "<<km*0.10;
+    break;
 
+    case 3:
+    cout<<"Your Toatal Bill is "<<km*0.20;
+    break;
 
-
- /*2. A traffic light control system needs to inform pedestrians and drivers about road signals. 
+    default :
+    cout<<"invaild Entery Try agian";
+    break;
+}
+ }
+2. A traffic light control system needs to inform pedestrians and drivers about road signals. 
  The system should take one of three signal colors ("Red", "Yellow", "Green") as input and display
- the correct action for both pedestrians and vehicles. */
+ the correct action for both pedestrians and vehicles. 
  #include<iostream>
  using namespace std;
  int main(){
@@ -39,3 +63,5 @@ cout<<"invalid entery plz try again ";
     break;
 }
  }
+
+
