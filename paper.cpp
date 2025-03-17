@@ -78,7 +78,7 @@ cout<<"invalid entery plz try again ";
 o If the bill is between $500–$999, apply a 10% discount. 
 o If the bill is $1000 or more, apply a 20% discount. A customer buys items totaling $750; 
 calculate the final bill.*/
-#include<iostream>
+/*#include<iostream>
  using namespace std;
  int main(){
 float custmAmmount;
@@ -97,3 +97,23 @@ else if(custmAmmount>=1000){
 }
 
 }
+
+
+
+
+4. A fitness tracking application calculates BMI (Body Mass Index). Given a weight (e.g., 70 kg)
+ and height (e.g., 1.75 meters),compute BMI using BMI = weight / (height²) and categorize users as
+  "Underweight," "Normal,""Overweight," or "Obese."*/
+  #include<iostream>
+  using namespace std;
+  int main(){
+//(underwaight=Below 18.5), (Normal Weight=18.5 to 24.9),
+//(Overweight=25.0 to 29.9), (Obesity=30.0 or greater)
+int weight;
+cout<<"Enter your weight ";
+cin>>weight;
+float height;
+cout<<"Enter your hight ";
+cin>>height;
+cout<<weight+height;
+  }
