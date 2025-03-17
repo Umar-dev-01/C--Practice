@@ -3,7 +3,7 @@
 o Motorcycle: $0.05 per km 
 o Car: $0.10 per km 
 o Truck: $0.20 per km The program should take a vehicle type and distance
- (e.g., 150 km) as input and compute the toll fee. */
+ (e.g., 150 km) as input and compute the toll fee. 
  #include<iostream>
  using namespace std;
  int main(){ 
@@ -32,6 +32,11 @@ switch(gadi){
     break;
 }
  }
+
+
+
+
+
 2. A traffic light control system needs to inform pedestrians and drivers about road signals. 
  The system should take one of three signal colors ("Red", "Yellow", "Green") as input and display
  the correct action for both pedestrians and vehicles. 
@@ -65,3 +70,30 @@ cout<<"invalid entery plz try again ";
  }
 
 
+
+
+
+
+ 3. An online shopping store applies discounts based on the total bill: 
+o If the bill is between $500–$999, apply a 10% discount. 
+o If the bill is $1000 or more, apply a 20% discount. A customer buys items totaling $750; 
+calculate the final bill.*/
+#include<iostream>
+ using namespace std;
+ int main(){
+float custmAmmount;
+cout<<"Thank you for shopping at our store. How much of your bill? Let's see how much" ;
+cout<<"discount you are entitled to. ";
+cin>>custmAmmount;
+if (custmAmmount>=500 && custmAmmount<=999)
+{
+    // Discounted Price = Original Price - (Original Price * Discount Percentage)
+   cout<<"Your Total bill is "<<custmAmmount-(custmAmmount*0.10);
+}
+else if(custmAmmount>=1000){
+    cout<<"Your Total bill is "<<custmAmmount-(custmAmmount*0.20);
+}else{
+    cout<<"Your purchase is very low so discount was not given to the same ";
+}
+
+}
