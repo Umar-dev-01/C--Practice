@@ -136,12 +136,23 @@ if(BMI<18.5){
 
 
 
-  5. An electricity billing system calculates the total bill based on the number of units consumed: 
-  o 0–100 units: $0.50 per unit 
-  o 101–300 units: $0.75 per unit 
-  o 301+ units: $1.20 per unit A customer consumes 250 units; calculate the total bill. */
-  #include<iostream>
-  using namespace std;
-  int main(){
-    
+5. An electricity billing system calculates the total bill based on the number of units consumed: 
+o 0–100 units: $0.50 per unit 
+o 101–300 units: $0.75 per unit 
+o 301+ units: $1.20 per unit A customer consumes 250 units; calculate the total bill. */
+#include<iostream>
+using namespace std;
+int main(){
+int Units;
+cout<<"Enter your Units ";
+cin>>Units;
+if(Units<=100){
+    cout<<"Your Total Bill is "<<Units*0.50;
+}else if(Units>=101 && Units<=300){
+    cout<<"Your Total Bill is "<<Units*0.75;
+}else if(Units>300){
+    cout<<"Your Total Bill is "<<Units*1.20;
+}else{
+    cout<<"Invalid Entery";
+}
   }
