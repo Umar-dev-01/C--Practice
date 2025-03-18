@@ -155,14 +155,14 @@ if(Units<=100){
 }else{
     cout<<"Invalid Entery";
 }
-  }
+  }*/
 
 
-9.  A library overdue fine calculator computes late fees based on the number of days overdue: 
+/*9.  A library overdue fine calculator computes late fees based on the number of days overdue: 
 o 1–5 days: $1 per day 
 o 6–10 days: $2 per day 
 o 11+ days: $5 per day A user returns a book 8 days late; calculate the total fine. */
-   #include<iostream>
+   /*#include<iostream>
    using namespace std;
    int main(){
     int days;
@@ -177,3 +177,30 @@ o 11+ days: $5 per day A user returns a book 8 days late; calculate the total fi
     }else{
         cout<<"Invalid Entery";
     }}
+    */
+
+
+
+
+
+/* 16.   A currency converter converts an amount to different currencies. Example exchange rates: 
+• 1 USD = 150 PKR 
+• 1 USD = 0.85 EUR A user enters an amount in USD (e.g., 20 USD) and selects a currency to convert to.*/
+#include<iostream>
+using namespace std;
+int main(){
+int money;
+cout<<"Enter your money in number ";
+cin>>money;
+string currency;
+cout<<"Enter your currencey <PKR> or <EUR> ";
+cin>>currency;
+if (currency=="PKR")
+{
+   cout<<money*150<<endl;
+}else if(currency=="EUR"){
+    cout<<money*0.85<<endl;
+}else{
+    cout<<"Please use big ABC in entring the currencey not use < and > operators ";
+}
+}
