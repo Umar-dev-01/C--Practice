@@ -139,7 +139,7 @@ if(BMI<18.5){
 5. An electricity billing system calculates the total bill based on the number of units consumed: 
 o 0–100 units: $0.50 per unit 
 o 101–300 units: $0.75 per unit 
-o 301+ units: $1.20 per unit A customer consumes 250 units; calculate the total bill. */
+o 301+ units: $1.20 per unit A customer consumes 250 units; calculate the total bill. 
 #include<iostream>
 using namespace std;
 int main(){
@@ -156,3 +156,24 @@ if(Units<=100){
     cout<<"Invalid Entery";
 }
   }
+
+
+9.  A library overdue fine calculator computes late fees based on the number of days overdue: 
+o 1–5 days: $1 per day 
+o 6–10 days: $2 per day 
+o 11+ days: $5 per day A user returns a book 8 days late; calculate the total fine. */
+   #include<iostream>
+   using namespace std;
+   int main(){
+    int days;
+    cout<<"Please enter how many days it took you to return the book ";
+    cin>>days;
+    if (days<=5){
+        cout<<"Your total charges are "<<days*1;
+    }else if(days>=6 && days<=10){
+        cout<<"Your total charges are "<<days*2;
+    }else if (days>10){
+        cout<<"Your total charges are "<<days*5;
+    }else{
+        cout<<"Invalid Entery";
+    }}
