@@ -37,6 +37,7 @@ switch(gadi){
 
 
 
+
 2. A traffic light control system needs to inform pedestrians and drivers about road signals. 
  The system should take one of three signal colors ("Red", "Yellow", "Green") as input and display
  the correct action for both pedestrians and vehicles. 
@@ -74,6 +75,8 @@ cout<<"invalid entery plz try again ";
 
 
 
+
+
  3. An online shopping store applies discounts based on the total bill: 
 o If the bill is between $500–$999, apply a 10% discount. 
 o If the bill is $1000 or more, apply a 20% discount. A customer buys items totaling $750; 
@@ -94,9 +97,9 @@ else if(custmAmmount>=1000){
     cout<<"Your Total bill is "<<custmAmmount-(custmAmmount*0.20);
 }else{
     cout<<"Your purchase is very low so discount was not given to the same ";
-}
+}}
 
-}
+
 
 
 
@@ -136,6 +139,7 @@ if(BMI<18.5){
 
 
 
+
 5. An electricity billing system calculates the total bill based on the number of units consumed: 
 o 0–100 units: $0.50 per unit 
 o 101–300 units: $0.75 per unit 
@@ -156,6 +160,10 @@ if(Units<=100){
     cout<<"Invalid Entery";
 }
   }*/
+
+
+
+
 
 
 /*9.  A library overdue fine calculator computes late fees based on the number of days overdue: 
@@ -257,9 +265,9 @@ if(percentage>=90){
 
 
 
-/*19. A blood donation eligibility checker asks for age (e.g., 20) and weight (e.g., 55 kg). 
+/*19.  A blood donation eligibility checker asks for age (e.g., 20) and weight (e.g., 55 kg). 
 The minimum criteria are age ≥18 and weight ≥50 kg. The program determines if the person is eligible.*/
-#include<iostream>
+/*#include<iostream>
 using namespace std;
 int main(){
     int age,weight;
@@ -274,4 +282,26 @@ if(age>=18){
 }else{
     cout<<"You are not eligible for blood donation";
 }
+}*/
+
+
+
+
+//<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+
+
+
+
+
+/*20. A restaurant billing system calculates the final bill, including a 10% service charge. 
+Given item prices (e.g., $5.50, $3.75, $4.20), compute the final amount*/
+#include<iostream>
+using namespace std;
+int main(){
+    cout<<"its all prices of all item($5.50, $3.75, $4.20)  "<<endl;
+    int sum;
+    sum=5.50+3.75+4.20;
+    cout<<"Your total bill is including with FBR Tax is "<<sum;
 }
+
