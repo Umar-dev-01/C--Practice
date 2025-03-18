@@ -208,7 +208,7 @@ if (currency=="PKR")
 
 
 /*18. A student grade calculator takes marks for 5 subjects (e.g., 85, 90, 78, 92, 88). 
-Compute the percentage and assign a grade (A, B, C, etc.).*/
+ Compute the percentage and assign a grade (A, B, C, etc.).*/
 #include<iostream>
 using namespace std;
 int main(){
