@@ -166,6 +166,34 @@ if(Units<=100){
 
 
 
+
+
+  /*7. A smart elevator system moves between floors based on user input. The elevator starts at ground 
+  floor (1). It should take a floor number (1-10) as input and display the floors passed until it
+   reaches the destination. The program should keep running until the user enters "Exit."*/
+   #include<iostream>
+   using namespace std;
+   int main(){
+    int floor;
+    cout<<"Enter your floor number ";
+    cin>>floor;
+   for (int i=1; floor<11; i++)
+   {
+    cout<<"you are on "<<floor<<" floor"<<endl;
+    floor++;
+   }
+}
+
+
+
+
+
+
+
+
+
+
+
 /*9.  A library overdue fine calculator computes late fees based on the number of days overdue: 
 o 1–5 days: $1 per day 
 o 6–10 days: $2 per day 
@@ -212,6 +240,7 @@ if (currency=="PKR")
     cout<<"Please use big ABC in entring the currencey not use < and > operators ";
 }
 }*/
+
 
 
 
@@ -287,7 +316,7 @@ if(age>=18){
 
 
 
-//<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+//<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
 
 
@@ -296,12 +325,12 @@ if(age>=18){
 
 /*20. A restaurant billing system calculates the final bill, including a 10% service charge. 
 Given item prices (e.g., $5.50, $3.75, $4.20), compute the final amount*/
-#include<iostream>
+/*#include<iostream>
 using namespace std;
 int main(){
     cout<<"its all prices of all item($5.50, $3.75, $4.20)  "<<endl;
     int sum;
     sum=5.50+3.75+4.20;
     cout<<"Your total bill is including with FBR Tax is "<<sum;
-}
+}*/
 
