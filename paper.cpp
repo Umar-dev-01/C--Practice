@@ -212,5 +212,21 @@ if (currency=="PKR")
 #include<iostream>
 using namespace std;
 int main(){
-
+int marks,English,Math,Science,computer,urdu;
+cout<<"Enter your marks of Engliah "<<endl;
+cin>>English;
+cout<<"Enter your marks of Math "<<endl;
+cin>>Math;
+cout<<"Enter your marks of Science "<<endl;
+cin>>Science;
+cout<<"Enter your marks of Computer "<<endl;
+cin>>computer;
+cout<<"Enter your marks of Urdu "<<endl;
+cin>>urdu;
+marks=English+Math+Science+computer+urdu;
+cout<<"Your Total marks are "<<marks<<" out of 500"<<endl;
+//percentage formula is (part/whole) * 100
+float percentage;
+percentage=(marks/500)*100;
+cout<<"Your Toatal percentage is "<<percentage<<endl;
 }
