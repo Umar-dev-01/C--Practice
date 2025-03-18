@@ -104,7 +104,7 @@ else if(custmAmmount>=1000){
 4. A fitness tracking application calculates BMI (Body Mass Index). Given a weight (e.g., 70 kg)
  and height (e.g., 1.75 meters),compute BMI using BMI = weight / (height²) and categorize users as
   "Underweight," "Normal,""Overweight," or "Obese."*/
-  #include<iostream>
+/*#include<iostream>
   using namespace std;
   int main(){
 //(underwaight=Below 18.5), (Normal Weight=18.5 to 24.9),
@@ -115,5 +115,33 @@ cin>>weight;
 float height;
 cout<<"Enter your hight ";
 cin>>height;
-cout<<weight+height;
+// BMI = weight / (height²)
+float BMI;
+BMI=weight+(height*height);
+cout<<BMI;
+if(BMI<18.5){
+    cout<<" Underweight";
+}else if(BMI>=18.5 && BMI<=24.9){
+    cout<<" Normal";
+}else if(BMI>=25.0 && BMI<=29.9){
+    cout<<" Overweight";
+}else if(BMI>=30.0){
+    cout<<" Obesity";
+}else{
+    cout<<"Invalid Entry please Try again";
+}
+  }
+
+
+
+
+
+  5. An electricity billing system calculates the total bill based on the number of units consumed: 
+  o 0–100 units: $0.50 per unit 
+  o 101–300 units: $0.75 per unit 
+  o 301+ units: $1.20 per unit A customer consumes 250 units; calculate the total bill. */
+  #include<iostream>
+  using namespace std;
+  int main(){
+    
   }
