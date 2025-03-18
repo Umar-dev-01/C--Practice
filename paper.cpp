@@ -186,7 +186,7 @@ o 11+ days: $5 per day A user returns a book 8 days late; calculate the total fi
 /* 16.   A currency converter converts an amount to different currencies. Example exchange rates: 
 • 1 USD = 150 PKR 
 • 1 USD = 0.85 EUR A user enters an amount in USD (e.g., 20 USD) and selects a currency to convert to.*/
-#include<iostream>
+/*#include<iostream>
 using namespace std;
 int main(){
 int money;
@@ -203,4 +203,14 @@ if (currency=="PKR")
 }else{
     cout<<"Please use big ABC in entring the currencey not use < and > operators ";
 }
+}*/
+
+
+
+/*18. A student grade calculator takes marks for 5 subjects (e.g., 85, 90, 78, 92, 88). 
+Compute the percentage and assign a grade (A, B, C, etc.).*/
+#include<iostream>
+using namespace std;
+int main(){
+
 }
