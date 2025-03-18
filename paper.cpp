@@ -207,11 +207,20 @@ if (currency=="PKR")
 
 
 
+
+
+
+
+          //  <<<<<<<<<<<<<<<<<<<<<Issue in this pro>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+          
+
 /*18. A student grade calculator takes marks for 5 subjects (e.g., 85, 90, 78, 92, 88). 
  Compute the percentage and assign a grade (A, B, C, etc.).*/
 #include<iostream>
 using namespace std;
 int main(){
+  
 int marks,English,Math,Science,computer,urdu;
 cout<<"Enter your marks of Engliah "<<endl;
 cin>>English;
@@ -229,4 +238,17 @@ cout<<"Your Total marks are "<<marks<<" out of 500"<<endl;
 float percentage;
 percentage=(marks/500)*100;
 cout<<"Your Toatal percentage is "<<percentage<<endl;
+if(percentage>=90){
+    cout<<"Grade A+";
+}else if(percentage>=75 && percentage<90){
+    cout<<"Grade A";
+}else if(percentage>=55 && percentage<75){
+    cout<<"Grade B";
+}else if(percentage>=41 && percentage<=40){
+    cout<<"Grade C";
+}else if(percentage>=1 && percentage<39){
+    cout<<"Grade F";
+}else{
+    cout<<"Invalid Intery";
+}
 }
