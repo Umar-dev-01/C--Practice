@@ -217,10 +217,9 @@ if (currency=="PKR")
 
 /*18. A student grade calculator takes marks for 5 subjects (e.g., 85, 90, 78, 92, 88). 
  Compute the percentage and assign a grade (A, B, C, etc.).*/
-#include<iostream>
+/*#include<iostream>
 using namespace std;
 int main(){
-  
 int marks,English,Math,Science,computer,urdu;
 cout<<"Enter your marks of Engliah "<<endl;
 cin>>English;
@@ -250,5 +249,29 @@ if(percentage>=90){
     cout<<"Grade F";
 }else{
     cout<<"Invalid Intery";
+}
+}*/
+
+
+
+
+
+
+/*19. A blood donation eligibility checker asks for age (e.g., 20) and weight (e.g., 55 kg). 
+The minimum criteria are age ≥18 and weight ≥50 kg. The program determines if the person is eligible.*/
+#include<iostream>
+using namespace std;
+int main(){
+    int age,weight;
+    cout<<"Enter Your Age ";
+    cin>>age;
+    cout<<"Enter your Weight ";
+    cin>>weight;
+if(age>=18){
+    if(weight>=50){
+        cout<<"Congratulations! Are You Eligible for Blood Donation";
+    }
+}else{
+    cout<<"You are not eligible for blood donation";
 }
 }
