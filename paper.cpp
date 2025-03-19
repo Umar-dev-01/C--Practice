@@ -346,7 +346,7 @@ int main(){
 
 /*22. A banking system allows deposits and withdrawals. A user starts with a balance (e.g., $1000), 
 deposits $500, then withdraws $300. Update and display the balance after each transaction.*/
-#include<iostream>
+/*#include<iostream>
 using namespace std;
 int main(){
     int balance=1000,depositBalance;
@@ -359,4 +359,66 @@ int main(){
     cout<<"How many balnce of withdrwas ";
     cin>>withdrawBalance;
 cout<<"Now your total balance is "<<totalBalance-withdrawBalance<<" after transction";
+}*/
+
+
+
+
+
+
+
+/*27. A hotel room booking system manages room availability for a 10-room hotel. Users can check
+ availability and book rooms*/
+ #include<iostream>
+using namespace std;
+int main(){
+int room;
+cout<<"In our Motel are total (1-10) room who is the wanted to you ";
+cin>>room;
+switch (room)
+{
+case 1:
+    cout<<"ok. come here This room is not booked";
+    break;
+            
+case 2:
+    cout<<"Sorry This room is booked";
+    break;
+            
+case 3:
+    cout<<"Sorry This room is booked";
+    break;
+            
+case 4:
+    cout<<"Sorry This room is booked";
+    break;
+            
+case 5:
+    cout<<"ok. come here This room is not booked";
+    break;
+            
+case 6:
+    cout<<"Sorry This room is booked";
+    break;
+            
+case 7:
+    cout<<"Sorry This room is booked";
+    break;
+            
+case 8:
+    cout<<"Sorry This room is booked";
+    break;
+            
+case 9:
+    cout<<"ok. come here This room is not booked";
+    break;
+            
+case 10:
+    cout<<"Sorry This room is booked";
+    break;
+            
+default:
+cout<<"Invalid entery only slect in 1 to 10";
+    break;
+}
 }
