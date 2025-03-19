@@ -584,9 +584,13 @@ cout<<"Now Your Total Balance is "<<wallet(500,pessy)<<" after adding new balanc
 
 
 
+
+
+
+
 /*39. A clothing recommendation system suggests clothing based on temperature 
 (e.g., 5°C → Wear a jacket)*/
-#include<iostream>
+/*#include<iostream>
  using namespace std;
  int main(){
     cout<<"enter the temperatur how many celcius of there? ";
@@ -601,8 +605,24 @@ cout<<"Now Your Total Balance is "<<wallet(500,pessy)<<" after adding new balanc
     }else{
         cout<<"Enter as much temperature recommendation clothing as you want to see to the enter";
     }
- }
+ }*/
 
 
 
 
+
+
+
+
+ /*40. A bus schedule analyzer records passenger loads at different times and identifies peak hours.*/
+ /*#include<iostream>
+ using namespace std;
+ int main(){
+    int a,b=1,sum;
+    cout<<"How many seats are avalible in this vehichal ";
+    cin>>a;
+  for(int i=1; i<=a; i++){
+        cout<<"Passenger no "<<i<<" is on the seat "<<endl;
+sum+=b;
+    }cout<<"Total passger are "<<sum<<" vehical is full becuse its time of peak"<<endl;
+}*/
