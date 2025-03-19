@@ -510,7 +510,7 @@ int main(){
 
 /*33. A city traffic analysis system records traffic density at different times and suggests 
 the least congested route.*/
-#include<iostream>
+/*#include<iostream>
 using namespace std;
 int main(){
     float time;
@@ -529,5 +529,31 @@ int main(){
     }
     else {
         cout<<"Inalid entery only you can enter 1 to 24 ";
+    }
+}*/
+
+
+
+
+
+
+/*36. A health monitoring system records daily calories consumed (e.g., 1800, 2200, 2500) and checks
+ if the person is meeting their daily goal.*/
+ #include<iostream>
+ using namespace std;
+ int main(){
+int a=1;
+   while(a<=7){
+        int calories;
+//adults typically require between 1,600 and 3,000 calories,
+// with women needing around 1,600-2,400
+// and men needing 2,200-3,000,
+        cout<<"Enter your "<<a<<" day calories between in (1600 to 3000) ";
+        cin>>calories;
+        if(calories>=1800 && calories<=3000){
+            cout<<"Your calories is good "<<endl;
+        }else{
+            cout<<"Your calories is not good "<<endl;
+        }a++;
     }
 }
