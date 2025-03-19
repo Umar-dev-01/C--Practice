@@ -460,4 +460,25 @@ cout<<"Invalid entery only slect in 1 to 10";
 
 
 
+/*29. An e-commerce order processing system calculates the total bill for multiple products, 
+including delivery charges.*/   
+/*#include<iostream>
+using namespace std;
+int main(){
+    cout<<"how many products of you ";
+    int sum=0,a;
+cin>>a;
+for(int i=1; i<=a; i++){
+    cout<<"enter your "<<i<<" oder charges? ";
+    int fee;
+    cin>>fee;
+    sum+=fee;
+//a--;
+}
+cout<<"Your total bill is "<<sum+30<<"$ including 30$ delivery charges"<<endl;
+}*/
+
+
+
+
 
