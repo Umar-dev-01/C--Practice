@@ -369,7 +369,7 @@ cout<<"Now your total balance is "<<totalBalance-withdrawBalance<<" after transc
 
 /*27. A hotel room booking system manages room availability for a 10-room hotel. Users can check
  availability and book rooms*/
- #include<iostream>
+ /*#include<iostream>
 using namespace std;
 int main(){
 int room;
@@ -421,4 +421,43 @@ default:
 cout<<"Invalid entery only slect in 1 to 10";
     break;
 }
-}
+}*/
+
+
+
+
+
+
+
+//<<<<<<<<<<<<<<<<<<<<<< <<<<<<<<<<<<<      >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+
+/*28. An airline ticket pricing system increases ticket prices based on demand. First 10 tickets
+ are $200, next 10 increase by 10%, and so on*/
+/* #include<iostream>
+ using namespace std;
+ int main(){
+    cout<<"Total 20 seats are only availible "<<endl;
+    cout<<"enter your seat number who you want ";
+    int a;
+    cin>>a;
+  if(a<=10){
+    cout<<"your total bill is 200 ";
+  }else if(a>10 && a<=20){
+    cout<<"your total bill is "<<200*0.10<<endl;
+  }else{
+    cout<<"Invalid entry only 20 seats are avialible ";
+  }
+   }*/
+ 
+    
+ 
+
+
+
+
+
+
+
+
