@@ -171,7 +171,7 @@ if(Units<=100){
   /*7. A smart elevator system moves between floors based on user input. The elevator starts at ground 
   floor (1). It should take a floor number (1-10) as input and display the floors passed until it
    reaches the destination. The program should keep running until the user enters "Exit."*/
-   #include<iostream>
+/*#include<iostream>
    using namespace std;
    int main(){
     int floor;
@@ -182,7 +182,7 @@ if(Units<=100){
     cout<<"you are on "<<floor<<" floor"<<endl;
     floor++;
    }
-}
+}*/
 
 
 
@@ -334,3 +334,29 @@ int main(){
     cout<<"Your total bill is including with FBR Tax is "<<sum;
 }*/
 
+
+
+
+
+
+
+
+
+
+
+/*22. A banking system allows deposits and withdrawals. A user starts with a balance (e.g., $1000), 
+deposits $500, then withdraws $300. Update and display the balance after each transaction.*/
+#include<iostream>
+using namespace std;
+int main(){
+    int balance=1000,depositBalance;
+    cout<<"How many balance of deposits of you ";
+    cin>>depositBalance;
+    int totalBalance;
+    totalBalance=balance+depositBalance;
+    cout<<"Your total balance is "<<totalBalance<<endl;
+    int withdrawBalance;
+    cout<<"How many balnce of withdrwas ";
+    cin>>withdrawBalance;
+cout<<"Now your total balance is "<<totalBalance-withdrawBalance<<" after transction";
+}
