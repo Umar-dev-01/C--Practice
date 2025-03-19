@@ -539,7 +539,7 @@ int main(){
 
 /*36. A health monitoring system records daily calories consumed (e.g., 1800, 2200, 2500) and checks
  if the person is meeting their daily goal.*/
- #include<iostream>
+ /*#include<iostream>
  using namespace std;
  int main(){
 int a=1;
@@ -556,4 +556,35 @@ int a=1;
             cout<<"Your calories is not good "<<endl;
         }a++;
     }
+}*/
+
+
+
+
+
+
+
+
+
+
+/*38. A digital wallet system allows users to add money, make payments, and check their balance*/
+#include<iostream>
+ using namespace std;
+ int wallet(int money,int payments){
+return money+payments;
+ }
+int main(){
+    cout<<"Your total balnce is 500 "<<endl;
+    cout<<"how many add money do you want ";
+    int pessy;
+    cin>>pessy;
+cout<<"Now Your Total Balance is "<<wallet(500,pessy)<<" after adding new balance"<<endl;
 }
+
+
+
+
+
+
+
+
