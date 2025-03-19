@@ -473,7 +473,6 @@ for(int i=1; i<=a; i++){
     int fee;
     cin>>fee;
     sum+=fee;
-//a--;
 }
 cout<<"Your total bill is "<<sum+30<<"$ including 30$ delivery charges"<<endl;
 }*/
@@ -482,3 +481,24 @@ cout<<"Your total bill is "<<sum+30<<"$ including 30$ delivery charges"<<endl;
 
 
 
+
+
+/*31. A vehicle speed monitoring system records speeds of 10 vehicles and flags those exceeding the 
+speed limit (e.g., 60 km/h).*/
+/*#include<iostream>
+using namespace std;
+int main(){
+    int a=1;
+    while (a<=10)
+    {
+       cout<<"Enter your "<<a<<" vehical speed ";
+       int speed;
+       cin>>speed;
+       a++;
+       if(speed<=60){
+        cout<<"ok"<<endl;
+       }else{
+        cout<<"flage"<<endl;
+       }
+    }
+}*/
