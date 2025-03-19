@@ -322,7 +322,7 @@ if(age>=18){
 
 
 
-
+//with function i can prove 
 /*20. A restaurant billing system calculates the final bill, including a 10% service charge. 
 Given item prices (e.g., $5.50, $3.75, $4.20), compute the final amount*/
 /*#include<iostream>
@@ -568,7 +568,7 @@ int a=1;
 
 
 /*38. A digital wallet system allows users to add money, make payments, and check their balance*/
-#include<iostream>
+/*#include<iostream>
  using namespace std;
  int wallet(int money,int payments){
 return money+payments;
@@ -579,11 +579,29 @@ int main(){
     int pessy;
     cin>>pessy;
 cout<<"Now Your Total Balance is "<<wallet(500,pessy)<<" after adding new balance"<<endl;
-}
+}*/
 
 
 
 
+/*39. A clothing recommendation system suggests clothing based on temperature 
+(e.g., 5°C → Wear a jacket)*/
+#include<iostream>
+ using namespace std;
+ int main(){
+    cout<<"enter the temperatur how many celcius of there? ";
+    int temperature;
+    cin>>temperature;
+    if(temperature>=-10 && temperature<=0){
+        cout<<"wear two jaket and big coat ";
+    }else  if(temperature>=1 && temperature<=20){
+        cout<<"use 1 jaket only";
+    }else if(temperature>=21 && temperature<=50){
+        cout<<"used AC";
+    }else{
+        cout<<"Enter as much temperature recommendation clothing as you want to see to the enter";
+    }
+ }
 
 
 
