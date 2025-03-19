@@ -367,6 +367,7 @@ cout<<"Now your total balance is "<<totalBalance-withdrawBalance<<" after transc
 
 
 
+
 /*27. A hotel room booking system manages room availability for a 10-room hotel. Users can check
  availability and book rooms*/
  /*#include<iostream>
@@ -502,3 +503,31 @@ int main(){
        }
     }
 }*/
+
+
+
+
+
+/*33. A city traffic analysis system records traffic density at different times and suggests 
+the least congested route.*/
+#include<iostream>
+using namespace std;
+int main(){
+    float time;
+    cout<<"What time is it now? enter in 24 hour system ";
+    cin>>time;
+    if(time>=6 && time<=8){
+        cout<<"Use Kashmir heighway ";
+    }else if(time>=9 && time<=14){
+        cout<<"Go to easliy in the city ";
+    }else if(time>14 && time<=18){
+        cout<<"Donot go in the city because peak time ";
+    }else if(time>18 && time<=24){
+        cout<<"Go easily becuse its night time ";
+    }else if(time>=1 && time<6){
+        cout<<"Go easily becuse its night time ";
+    }
+    else {
+        cout<<"Inalid entery only you can enter 1 to 24 ";
+    }
+}
