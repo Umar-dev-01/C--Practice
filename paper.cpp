@@ -419,7 +419,7 @@ cout<<"Now your total balance is "<<totalBalance-withdrawBalance<<" after transc
 
 /*24. A university course enrollment system allows students to enroll in up to 5 courses.
  The program stores selected courses in an array and displays them when requested.*/
- #include<iostream>
+ /*#include<iostream>
  using namespace std;
  int main(){
     string course[5];
@@ -446,13 +446,40 @@ cout<<"5 is "<<course[4]<<endl;
     }else {
       cout<<"Your are out of the Program";
     }
- }
+ }*/
 
 
 
 
 
+//<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<      >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
+ /*26. A shopping cart system allows users to add and remove items dynamically while keeping track
+  of the total bill.*/
+  #include<iostream>
+  using namespace std;
+  int main(){
+    string item[]={"watch","Torrian","Fruit","Toys","Dhania","Stick","Burrger"};
+    cout<<item[0]<<endl; cout<<item[1]<<endl;
+    cout<<item[2]<<endl; cout<<item[3]<<endl;
+    cout<<item[4]<<endl; cout<<item[5]<<endl;
+    cout<<item[6]<<endl; 
+    cout<<"How many atoms do you want for your home? ";
+   int forHome;
+   cin>>forHome;
+  for(int i=1; i<=forHome; i++){
+    cout<<"Which atom do you want to take home? ";
+    cin>>item[i];
+}
+    cout<<endl;
+    for(int i=0; i<=forHome; i++){
+    cout<<item[i];
+    }
+}  
+    
+     
+       
+       
 
 
 
