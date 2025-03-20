@@ -699,12 +699,12 @@ int a=1;
  using namespace std;
  int main(){
     cout<<"Enter delivery time ";
-    float time;
+    double time;
     cin>>time;
    cout<<"Enter Your distance ";
-   float distance;
+   double distance;
    cin>>distance;
-   int sum;
+   double sum;
    sum=(time/distance);
    cout<<sum*100;
  }
