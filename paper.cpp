@@ -454,9 +454,15 @@ cout<<"5 is "<<course[4]<<endl;
 
 //<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<      >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
+
+
+
+
+
+
  /*26. A shopping cart system allows users to add and remove items dynamically while keeping track
   of the total bill.*/
-  #include<iostream>
+  /*#include<iostream>
   using namespace std;
   int main(){
     string item[]={"watch","Torrian","Fruit","Toys","Dhania","Stick","Burrger"};
@@ -475,8 +481,8 @@ cout<<"5 is "<<course[4]<<endl;
     for(int i=0; i<=forHome; i++){
     cout<<item[i];
     }
-}  
-    
+}  */
+
      
        
        
@@ -546,6 +552,9 @@ cout<<"Invalid entery only slect in 1 to 10";
 
 
 //<<<<<<<<<<<<<<<<<<<<<< <<<<<<<<<<<<<      >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+
 
 
 
@@ -673,6 +682,32 @@ int a=1;
     }
 }*/
 
+
+
+
+
+
+
+//<<<<<<<<<<<<<<<<<<<<<<<<<<<              >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+
+
+
+/*37. A package delivery system estimates delivery time based on distance and traffic*/
+#include<iostream>
+ using namespace std;
+ int main(){
+    cout<<"Enter delivery time ";
+    float time;
+    cin>>time;
+   cout<<"Enter Your distance ";
+   float distance;
+   cin>>distance;
+   int sum;
+   sum=(time/distance);
+   cout<<sum*100;
+ }
 
 
 
