@@ -193,7 +193,7 @@ if(Units<=100){
 /*8. A parking lot system tracks parked cars. The parking lot has 10 spaces. The program should accept
  license plate numbers, store them in an array, and allow checking if a specific vehicle is parked.
   When the user enters "EXIT," display all parked cars.*/
-  #include<iostream>
+  /*#include<iostream>
   using namespace std;
   int main(){
     int b,a,places[10];
@@ -209,7 +209,7 @@ if(Units<=100){
         cout<<"You can park vehical no "<<b<<endl;
 }b++;
   }
-  cout<<endl;}
+  cout<<endl;}*/
 
 
 
@@ -270,16 +270,39 @@ if (currency=="PKR")
 
 
 
-          //  <<<<<<<<<<<<<<<<<<<<<Issue in this pro>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+/*10. A fuel economy tracker records multiple trips' fuel consumption and calculates the average fuel economy
+ (km per liter). For example, a driver enters the fuel used (5L, 8L, 4L) and the distances traveled 
+ (100 km, 150 km, 75 km). The program calculates and updates the average fuel efficiency after each trip*/
+ /*#include<iostream>
+using namespace std;
+int main(){
+    cout<<"Well Come to Fuel Economy Tracker"<<endl;
+    cout<<endl;
+    cout<<"Enter Your fuel ";
+    double fuel;
+    cin>>fuel;
+    cout<<"Enter distancein KM ";
+    double km;
+    cin>>km;
+    double result;
+    result=(fuel/km);;
+    cout<<result*100;
+}*/
+
+
+
+
+        
 
           
 
 /*18. A student grade calculator takes marks for 5 subjects (e.g., 85, 90, 78, 92, 88). 
  Compute the percentage and assign a grade (A, B, C, etc.).*/
-/*#include<iostream>
+#include<iostream>
 using namespace std;
 int main(){
-int marks,English,Math,Science,computer,urdu;
+double marks,English,Math,Science,computer,urdu;
 cout<<"Enter your marks of Engliah "<<endl;
 cin>>English;
 cout<<"Enter your marks of Math "<<endl;
@@ -297,19 +320,17 @@ float percentage;
 percentage=(marks/500)*100;
 cout<<"Your Toatal percentage is "<<percentage<<endl;
 if(percentage>=90){
-    cout<<"Grade A+";
+    cout<<"Grade A+ ";
 }else if(percentage>=75 && percentage<90){
-    cout<<"Grade A";
+    cout<<"Grade A ";
 }else if(percentage>=55 && percentage<75){
-    cout<<"Grade B";
+    cout<<"Grade B ";
 }else if(percentage>=41 && percentage<=40){
-    cout<<"Grade C";
+    cout<<"Grade C ";
 }else if(percentage>=1 && percentage<39){
-    cout<<"Grade F";
-}else{
-    cout<<"Invalid Intery";
+    cout<<"Grade F ";
 }
-}*/
+}
 
 
 
