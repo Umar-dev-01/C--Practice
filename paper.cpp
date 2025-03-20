@@ -299,7 +299,7 @@ int main(){
 
 /*18. A student grade calculator takes marks for 5 subjects (e.g., 85, 90, 78, 92, 88). 
  Compute the percentage and assign a grade (A, B, C, etc.).*/
-#include<iostream>
+/*#include<iostream>
 using namespace std;
 int main(){
 double marks,English,Math,Science,computer,urdu;
@@ -330,7 +330,7 @@ if(percentage>=90){
 }else if(percentage>=1 && percentage<39){
     cout<<"Grade F ";
 }
-}
+}*/
 
 
 
@@ -359,24 +359,29 @@ if(age>=18){
 
 
 
-//<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
 
 
 
 
-//with function i can prove 
 /*20. A restaurant billing system calculates the final bill, including a 10% service charge. 
 Given item prices (e.g., $5.50, $3.75, $4.20), compute the final amount*/
-/*#include<iostream>
+#include<iostream>
 using namespace std;
 int main(){
-    cout<<"its all prices of all item($5.50, $3.75, $4.20)  "<<endl;
-    int sum;
-    sum=5.50+3.75+4.20;
-    cout<<"Your total bill is including with FBR Tax is "<<sum;
-}*/
-
+    float sum;
+    cout<<"How many item of you ";
+    int item;
+    cin>>item;
+    for(int i=1; i<=item; i++){
+        int b;
+        cout<<"Enter your "<<i<<" item price"<<endl;
+        float price;
+        cin>>price;
+        sum+=price;
+    }
+    cout<<"Your total bill is "<<sum*0.10<<" including with FBR 10% Tax";
+}
 
 
 
