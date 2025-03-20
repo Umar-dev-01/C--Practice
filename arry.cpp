@@ -244,7 +244,7 @@ cout<<"enter the menu item number (1-5)"<<endl;
 A company collects customer feedback scores (10 numbers) and stores them in an array.
 Use a while loop to count how many scores are even and how many are odd.
 Display the total number of even and odd scores separately.*/
-#include<iostream>
+/*#include<iostream>
 using namespace std;
 int main(){
     int i, evenCount, oddCount, num[10];
@@ -264,6 +264,8 @@ int main(){
     }
     cout<<"Total even scores: " <<evenCount<<endl;
     cout<<"Total odd scores: " <<oddCount<<endl;
-}
+}*/
+
+
 
 

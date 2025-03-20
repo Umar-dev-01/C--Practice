@@ -366,7 +366,7 @@ if(age>=18){
 
 /*20. A restaurant billing system calculates the final bill, including a 10% service charge. 
 Given item prices (e.g., $5.50, $3.75, $4.20), compute the final amount*/
-#include<iostream>
+/*#include<iostream>
 using namespace std;
 int main(){
     float sum;
@@ -381,7 +381,7 @@ int main(){
         sum+=price;
     }
     cout<<"Your total bill is "<<sum*0.10<<" including with FBR 10% Tax";
-}
+}*/
 
 
 
@@ -408,6 +408,46 @@ int main(){
     cin>>withdrawBalance;
 cout<<"Now your total balance is "<<totalBalance-withdrawBalance<<" after transction";
 }*/
+
+
+
+
+
+
+
+
+
+/*24. A university course enrollment system allows students to enroll in up to 5 courses.
+ The program stores selected courses in an array and displays them when requested.*/
+ #include<iostream>
+ using namespace std;
+ int main(){
+    string course[5];
+    cout<<"Enter your first course ";
+cin>>course[0];
+    cout<<"Enter your second course ";
+cin>>course[1];
+    cout<<"Enter your third course ";
+cin>>course[2];
+    cout<<"Enter your fourth course ";
+cin>>course[3];
+    cout<<"Enter your fifth course ";
+    cin>>course[4];
+    cout<<endl;
+    cout<<"If you want see your course who you enter then you enter 'review' otherwise enter exit"<<endl;
+    string check;
+    cin>>check;
+    if(check=="review"){
+cout<<"1 is "<<course[0]<<endl;
+cout<<"2 is "<<course[1]<<endl;
+cout<<"3 is "<<course[2]<<endl;
+cout<<"4 is "<<course[3]<<endl;
+cout<<"5 is "<<course[4]<<endl;
+    }else {
+      cout<<"Your are out of the Program";
+    }
+ }
+
 
 
 
@@ -674,6 +714,5 @@ cout<<"Now Your Total Balance is "<<wallet(500,pessy)<<" after adding new balanc
 sum+=b;
     }cout<<"Total passger are "<<sum<<" vehical is full becuse its time of peak"<<endl;
 }*/
-
 
 
