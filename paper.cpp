@@ -196,11 +196,12 @@ if(Units<=100){
   #include<iostream>
   using namespace std;
   int main(){
-    int b,places[10];
-    cout<<"Enter your vehical number if donot number plate enter 0 if it is the put plate no "<<endl;
+    int b,a,places[10];
     for(int i=0; i<10; i++){
+ cout<<"Enter your vehical No "<<a+1<<" if no Number plate enter 0 if is then put plate no "<<endl;
         cin>>places[i];
-       }
+        a++;
+    }
        for(int i=0; i<10; i++){
     if(places[i]==0){
         cout<<"you can not park the vehical no "<<b<<" becuse its not register"<<endl;
