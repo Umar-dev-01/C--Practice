@@ -182,7 +182,7 @@ cout<<"invalid entery";
                 }
   
   
-                3. Restaurant Menu System (switch case)
+ 3. Restaurant Menu System (switch case)
 A restaurant has 5 menu items with fixed prices stored in an array.
 Ask the user to enter the menu item number (1-5).
 Use a switch case to display the selected item's name and price.

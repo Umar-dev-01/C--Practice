@@ -190,6 +190,27 @@ if(Units<=100){
 
 
 
+/*8. A parking lot system tracks parked cars. The parking lot has 10 spaces. The program should accept
+ license plate numbers, store them in an array, and allow checking if a specific vehicle is parked.
+  When the user enters "EXIT," display all parked cars.*/
+  #include<iostream>
+  using namespace std;
+  int main(){
+    int b,places[10];
+    cout<<"Enter your vehical number if donot number plate enter 0 if it is the put plate no "<<endl;
+    for(int i=0; i<10; i++){
+        cin>>places[i];
+       }
+       for(int i=0; i<10; i++){
+    if(places[i]==0){
+        cout<<"you can not park the vehical no "<<b<<" becuse its not register"<<endl;
+    }else{
+        cout<<"You can park vehical no "<<b<<endl;
+}b++;
+  }
+  cout<<endl;}
+
+
 
 
 
@@ -626,3 +647,6 @@ cout<<"Now Your Total Balance is "<<wallet(500,pessy)<<" after adding new balanc
 sum+=b;
     }cout<<"Total passger are "<<sum<<" vehical is full becuse its time of peak"<<endl;
 }*/
+
+
+
