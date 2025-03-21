@@ -241,6 +241,129 @@ o 11+ days: $5 per day A user returns a book 8 days late; calculate the total fi
 
 
 
+
+
+
+/*10. A fuel economy tracker records multiple trips' fuel consumption and calculates the average fuel economy
+ (km per liter). For example, a driver enters the fuel used (5L, 8L, 4L) and the distances traveled 
+ (100 km, 150 km, 75 km). The program calculates and updates the average fuel efficiency after each trip*/
+ /*#include<iostream>
+using namespace std;
+int main(){
+    cout<<"Well Come to Fuel Economy Tracker"<<endl;
+    cout<<endl;
+    cout<<"Enter Your fuel ";
+    double fuel;
+    cin>>fuel;
+    cout<<"Enter distancein KM ";
+    double km;
+    cin>>km;
+    double result;
+    result=(fuel/km);;
+    cout<<result*100;
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*11. A stock price tracker records daily stock prices for a company over a week 
+(e.g., $200, $195, $210, $180, $220, $215, $205). The program should determine the highest, lowest, and average stock price.*/ 
+/*#include <iostream>
+using namespace std;
+int main(){
+    cout<<"Weekly averge ($200, $195, $210, $180, $220, $215, $205)";
+    int a=200,b=195, c=210, d=180, e=220, f=215, g=205;
+    int highest=a;
+    if(b>highest){
+        highest=b;
+    }if(c>highest){
+        highest=c;
+    }if(d>highest){
+        highest=d;
+    }if(e>highest){
+        highest=e;
+    }if(f>highest){
+        highest=f;
+    }if(g>highest){
+        highest=g;
+    }
+int lowest=a;
+if(b<lowest){
+    lowest=b;
+}if(c<lowest){
+    lowest=c;
+}if(d<lowest){
+    lowest=d;
+}if(e<lowest){
+    lowest=e;
+}if(f<lowest){
+    lowest=f;
+}if(g<lowest){
+    lowest=g;
+}
+cout<<"Highest stock price is "<<highest<<endl;
+cout<<"Lowest stock price is "<<lowest<<endl;
+double average;
+average=(a+b+c+d+e+f+g)/7;
+cout<<"Average stock price "<<average;
+
+}*/
+
+
+
+
+
+
+
+
+/*12. A smart home system monitors temperatures in different rooms. Given temperature readings for five rooms 
+(e.g., 24°C, 30°C, 18°C, 28°C, 22°C), the program should identify the hottest and coldest room*/
+/*#include<iostream>
+using namespace std;
+int main(){
+    int a=24, b=30, c=18, d=28, e=22;
+    int coldest=a;
+    if(b<coldest){
+        coldest=b;
+    }if(c<coldest){
+        coldest=c;
+    }if(d<coldest){
+        coldest=d;
+    }if(e<coldest){
+        coldest=e;
+    }
+    int hottest=a;
+    if(b>hottest){
+        hottest=b;
+    }if(c>hottest){
+        hottest=c;
+    }if(d>hottest){
+        hottest=d;
+    }if(e>hottest){
+        hottest=e;
+    }
+    cout<<"hottest room is "<<hottest<<endl;
+    cout<<"coldest room is "<<coldest;
+}*/
+
+
+
+
+
+
+
+
+
+
 /* 16.   A currency converter converts an amount to different currencies. Example exchange rates: 
 • 1 USD = 150 PKR 
 • 1 USD = 0.85 EUR A user enters an amount in USD (e.g., 20 USD) and selects a currency to convert to.*/
@@ -271,24 +394,6 @@ if (currency=="PKR")
 
 
 
-/*10. A fuel economy tracker records multiple trips' fuel consumption and calculates the average fuel economy
- (km per liter). For example, a driver enters the fuel used (5L, 8L, 4L) and the distances traveled 
- (100 km, 150 km, 75 km). The program calculates and updates the average fuel efficiency after each trip*/
- /*#include<iostream>
-using namespace std;
-int main(){
-    cout<<"Well Come to Fuel Economy Tracker"<<endl;
-    cout<<endl;
-    cout<<"Enter Your fuel ";
-    double fuel;
-    cin>>fuel;
-    cout<<"Enter distancein KM ";
-    double km;
-    cin>>km;
-    double result;
-    result=(fuel/km);;
-    cout<<result*100;
-}*/
 
 
 
@@ -695,7 +800,7 @@ int a=1;
 
 
 /*37. A package delivery system estimates delivery time based on distance and traffic*/
-#include<iostream>
+/*#include<iostream>
  using namespace std;
  int main(){
     cout<<"Enter delivery time ";
@@ -707,7 +812,7 @@ int a=1;
    double sum;
    sum=(time/distance);
    cout<<sum*100;
- }
+ }*/
 
 
 
