@@ -405,6 +405,9 @@ cout<<"The cheapeast item is "<<cheapest;
 
 
 
+
+
+
 /* 16.   A currency converter converts an amount to different currencies. Example exchange rates: 
 • 1 USD = 150 PKR 
 • 1 USD = 0.85 EUR A user enters an amount in USD (e.g., 20 USD) and selects a currency to convert to.*/
@@ -438,6 +441,41 @@ if (currency=="PKR")
 
 
 
+/*17. A step counter application records a user’s daily step count over 7 days (e.g., 5000, 7200, 8500, 9000, 6800, 7500, 8800).
+ The program calculates the total steps, average steps, and the most active day. */
+ /*#include <iostream>
+ using namespace std;
+ int main(){
+    int num1,num2,num3,num4,num5,num6,num7;
+        cout<<"Enter your one week step day by day "<<endl;
+        cin>>num1>>num2>>num3>>num4>>num5>>num6>>num7;
+        double sum;
+        sum=num1+num2+num3+num4+num5+num6+num7;
+    
+     int active=num1;
+     if(num2>active){
+        active=num2;
+     }if(num3>active){
+        active=num3;
+     }if(num4>active){
+        active=num4;
+     }if(num5>active){
+        active=num5;
+     }if(num6>active){
+        active=num6;
+     }if(num7>active){
+        active=num7;
+     }
+     cout<<active<<" Most active day"<<endl;
+     cout<<"Total steps are "<<sum<<endl;
+     cout<<"Total Average is "<<sum/7;
+ }*/
+ 
+
+
+
+
+ 
 
         
 
