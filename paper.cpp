@@ -475,7 +475,7 @@ if (currency=="PKR")
 
 
 
- 
+
 
         
 
@@ -592,6 +592,60 @@ int main(){
     cin>>withdrawBalance;
 cout<<"Now your total balance is "<<totalBalance-withdrawBalance<<" after transction";
 }*/
+
+
+
+
+
+
+
+/*23. A smart water monitoring system records daily water consumption for a week 
+ (e.g., 50L, 55L, 45L, 60L, 58L, 52L, 49L). The program finds the highest and lowest usage days
+  and calculates the weekly average*/
+  #include <iostream>
+ using namespace std;
+ int main(){
+   cout<<"Enter the all week records water number of day by day ";
+   int day1,day2,day3,day4,day5,day6,day7;
+    cin>>day1>>day2>>day3>>day4>>day5>>day6>>day7;
+
+    int highest=day1;
+     if(day2>highest){
+      highest=day2;
+     }if(day3>highest){
+      highest=day3;
+     }if(day4>highest){
+      highest=day4;
+     }if(day5>highest){
+      highest=day5;
+     }if(day6>highest){
+      highest=day6;
+     }if(day7>highest){
+      highest=day7;
+     }
+
+     int lowest=day1;
+if(day2<lowest){
+   lowest=day2;
+}if(day3<lowest){
+   lowest=day3;
+}if(day4<lowest){
+   lowest=day4;
+}if(day5<lowest){
+   lowest=day5;
+}if(day6<lowest){
+   lowest=day6;
+  }if(day7<lowest){
+   lowest=day7;
+  }
+double sum=day1+day2+day3+day4+day5+day6+day7;
+cout<<"Total Average is the "<<sum/7<<endl;
+cout<<"The Lowest consumption is the "<<lowest<<endl;
+cout<<"The Highest consumption is the "<<highest;
+ }
+
+
+
 
 
 
