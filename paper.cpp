@@ -987,6 +987,38 @@ int main(){
 
 
 
+
+
+
+ /*34. An emergency response system records hospital response times (e.g., 15 min, 20 min, 12 min) 
+ and finds the fastest responder. */
+ /*#include <iostream>
+ using namespace std;
+ int main(){
+   cout<<"Enter 3 responser time one by one who is the fastest ";
+   int time1,time2,time3;
+   cin>>time1>>time2>>time3;
+
+   int fastest=time1;
+   if(time2<fastest){
+      fastest=time2;
+   }if(time3<fastest){
+      fastest=time3;
+   }
+   cout<<"The Faster responser is the "<<fastest;
+ }*/
+
+
+
+
+
+
+
+
+
+
+
+
 /*36. A health monitoring system records daily calories consumed (e.g., 1800, 2200, 2500) and checks
  if the person is meeting their daily goal.*/
  /*#include<iostream>
