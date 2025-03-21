@@ -363,6 +363,47 @@ int main(){
 
 
 
+/*14. A grocery store billing system takes the prices of 5 items (e.g., $2.50, $4.75, $3.60, $6.80, $1.25). 
+It should calculate the total bill, find the most expensive and cheapest item. */
+/*#include <iostream>
+ using namespace std;
+ int main(){
+   float item1,item2,item3,item4,item5;
+   cout<<"Enter the 5 item prices of item one by one ";
+   cin>>item1>>item2>>item3>>item4>>item5;
+   double sum;
+sum=item1+item2+item3+item4+item5;
+
+float expensive=item1;
+if(item2>expensive){
+   expensive=item2;
+}if(item3>expensive){
+   expensive=item3;
+}if(item4>expensive){
+   expensive=item4;
+}if(item5>expensive){
+   expensive=item5;
+}
+
+float cheapest=item1;
+if(item2<cheapest){
+   cheapest=item2;
+}if(item3<cheapest){
+   cheapest=item3;
+}if(item4<cheapest){
+   cheapest=item4;
+}if(item5<cheapest){
+   cheapest=item5;
+}
+
+cout<<"your total bill is "<<sum<<endl;
+cout<<"The most expensive item is "<<expensive<<endl;
+cout<<"The cheapeast item is "<<cheapest;
+ }*/
+
+
+
+
 
 /* 16.   A currency converter converts an amount to different currencies. Example exchange rates: 
 • 1 USD = 150 PKR 
