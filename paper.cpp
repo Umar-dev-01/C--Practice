@@ -602,7 +602,7 @@ cout<<"Now your total balance is "<<totalBalance-withdrawBalance<<" after transc
 /*23. A smart water monitoring system records daily water consumption for a week 
  (e.g., 50L, 55L, 45L, 60L, 58L, 52L, 49L). The program finds the highest and lowest usage days
   and calculates the weekly average*/
-  #include <iostream>
+ /* #include <iostream>
  using namespace std;
  int main(){
    cout<<"Enter the all week records water number of day by day ";
@@ -642,7 +642,7 @@ double sum=day1+day2+day3+day4+day5+day6+day7;
 cout<<"Total Average is the "<<sum/7<<endl;
 cout<<"The Lowest consumption is the "<<lowest<<endl;
 cout<<"The Highest consumption is the "<<highest;
- }
+ }*/
 
 
 
@@ -685,6 +685,56 @@ cout<<"5 is "<<course[4]<<endl;
       cout<<"Your are out of the Program";
     }
  }*/
+
+
+
+
+
+
+
+
+
+
+ 
+ /*25. A weather forecast analyzer records daily temperatures for a month (e.g., 30°C, 32°C, 29°C, …). 
+ Find the highest, lowest, and average temperature.*/
+ /*#include <iostream>
+ using namespace std;
+ int main(){
+   cout<<"Enter your temperture of five days in all over the month ";
+   int month1,month2,month3,month4,month5;
+   cin>>month1>>month2>>month3>>month4>>month5;
+   
+   int highest=month1;
+     if(month2>highest){
+      highest=month2;
+     }if(month3>highest){
+      highest=month3;
+     }if(month4>highest){
+      highest=month4;
+     }if(month5>highest){
+      highest=month5;
+     }
+
+     int lowest=month1;
+if(month2<lowest){
+   lowest=month2;
+}if(month3<lowest){
+   lowest=month3;
+}if(month4<lowest){
+   lowest=month4;
+}if(month5<lowest){
+   lowest=month5;
+}
+
+double sum=month1+month2+month3+month4+month5;
+cout<<"Total Average temperature is the "<<sum/5<<endl;
+cout<<"The Lowest temperature is the "<<lowest<<endl;
+cout<<"The Highest temperature is the "<<highest;
+ }*/
+
+
+
 
 
 
@@ -865,6 +915,44 @@ int main(){
        }
     }
 }*/
+
+
+
+
+
+
+
+
+
+ /*32. A personal finance tracker stores daily expenses (e.g., $5, $12, $8, $20) and finds the highest expense. */
+ /*#include <iostream>
+ using namespace std;
+ int main(){
+   cout<<"Enter your daily expense for one week ";
+   int day1,day2,day3,day4,day5,day6,day7;
+   cin>>day1>>day2>>day3>>day4>>day5>>day6>>day7;
+
+   int highest=day1;
+     if(day2>highest){
+      highest=day2;
+     }if(day3>highest){
+      highest=day3;
+     }if(day4>highest){
+      highest=day4;
+     }if(day5>highest){
+      highest=day5;
+     }if(day6>highest){
+      highest=day6;
+     }if(day7>highest){
+      highest=day7;
+     }
+
+     cout<<"Highest Expense is the "<<highest;
+ }*/
+
+
+
+
 
 
 
