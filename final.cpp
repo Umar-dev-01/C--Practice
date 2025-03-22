@@ -97,7 +97,7 @@ cout<<"Your "<<i<<" day fee is "<<total-fill<<endl;
  /*7. A stadium has 100 rows of seats, and each row has 5 more seats than the previous row. 
 The first row has 20 seats. Use a loop to display the number of seats in each row and the total seat
  in the stadium*/
- #include<iostream>
+ #/*include<iostream>
  using namespace std;
  int main(){
    double sum;int b=20;
@@ -107,6 +107,54 @@ The first row has 20 seats. Use a loop to display the number of seats in each ro
      sum+=b;
      b+=5;
     }  cout<<"Total seats are in stadium "<<sum;
- }
+ }*/
  
 
+
+
+ 
+ /*8. A fuel station offers a loyalty program. Customers who buy fuel for 10 consecutive days
+  get a 5% discount every 3rd day. Display which days a discount will be given*/
+  /*#include<iostream>
+ using namespace std;
+ int main(){
+  for(int i=1; i<=10; i++){
+    int total=140;
+    cout<<i<<" day discount "<<(total-0.5)/100<<endl;
+    i+=2;
+  }    
+ }*/
+
+
+
+
+  /*9. A digital signboard displays a countdown from 10 to 1 before a rocket launch. Write a loop to display
+  the countdown. When the countdown reaches 0, print "Liftoff!" */
+  /*#include<iostream>
+  using namespace std;
+  int main(){
+    cout<<"Time start "<<endl;
+    for(int i=10; i>=1; i--){
+      cout<<i<<endl;
+  }cout<<"Liftoff!";
+}*/
+
+
+
+
+
+/*10. A school organizes a charity run where students run in rounds. The first round is 1 km, and each 
+subsequent round increases by 0.5 km. Display the total distance covered after 10 rounds.*/
+/*#include<iostream>
+using namespace std;
+int main(){
+  double sum;float b=1000;
+   for(int i=1; i<=10; i++){
+    
+    cout<<i<<" round "<<b<<endl;
+    sum+=b;
+    b+=0.5;
+   }  cout<<"Total distance covered after 10 rounds "<<sum/1000<<" Km";
+}*/
+
+ 
