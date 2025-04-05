@@ -179,13 +179,13 @@ int main(){
   }if(greatest<books[6]){
     greatest=books[6];
   }cout<<"highest sale of the book is "<<greatest;
- }*/
+ }
 
 
- /*2. A hospital records the body temperatures of 10 patients. Store the temperatures in an array
+ 2. A hospital records the body temperatures of 10 patients. Store the temperatures in an array
   and find how many patients have a fever (temperature above 37.5°C). Example: {36.8, 37.6, 39.0, 36.5,
    37.2, 38.4, 37.9, 36.9, 39.5, 37.1}.*/
-   #include<iostream>
+   /*#include<iostream>
    using namespace std;
    int main(){
     float temperature[]={36.8, 37.6, 39.0, 36.5, 37.2, 38.4, 37.9, 36.9, 39.5, 37.1};
@@ -195,4 +195,19 @@ for(int i=0; i<10; i++){
     sum++;
   }
 }cout<<sum<<" patients have a fever (temperature above 37.5°C)";
+   }
+
+
+
+  3. A school records students' marks in 5 subjects. Store the marks in an array and calculate the
+    total and average marks. Example: {85, 90, 78, 88, 92}.*/
+    #include<iostream>
+    using namespace std;
+    int main(){
+  int marks[]={85, 90, 78, 88, 92};
+  int sum;
+  for (int i = 0; i < 5; i++){
+sum+=marks[i];
+  }cout<<"Total marks are "<< sum;
+  cout<<"Total marks of averge is "<<sum/5<<"%";
    }
