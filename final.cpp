@@ -161,7 +161,7 @@ int main(){
 
 /*1. A bookstore records the daily sales of 7 different books in an array. The program should find and
  display the book with the highest sales. Example sales data: {50, 30, 75, 40, 20, 60, 45}*/
- #include<iostream>
+ /*#include<iostream>
  using namespace std;
  int main(){
   int books[7]={50, 30, 75, 40, 20, 60, 45};
@@ -179,4 +179,20 @@ int main(){
   }if(greatest<books[6]){
     greatest=books[6];
   }cout<<"highest sale of the book is "<<greatest;
- }
+ }*/
+
+
+ /*2. A hospital records the body temperatures of 10 patients. Store the temperatures in an array
+  and find how many patients have a fever (temperature above 37.5°C). Example: {36.8, 37.6, 39.0, 36.5,
+   37.2, 38.4, 37.9, 36.9, 39.5, 37.1}.*/
+   #include<iostream>
+   using namespace std;
+   int main(){
+    float temperature[]={36.8, 37.6, 39.0, 36.5, 37.2, 38.4, 37.9, 36.9, 39.5, 37.1};
+    int sum;
+for(int i=0; i<10; i++){
+  if(temperature[i]>37.5){
+    sum++;
+  }
+}cout<<sum<<" patients have a fever (temperature above 37.5°C)";
+   }
