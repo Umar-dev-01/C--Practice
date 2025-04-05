@@ -159,26 +159,26 @@ int main(){
 
 
 
-/*1. A bookstore records the daily sales of 7 different books in an array. The program should find and
+/*1. A bookstore records the daily sales of 7 different product in an array. The program should find and
  display the book with the highest sales. Example sales data: {50, 30, 75, 40, 20, 60, 45}*/
  /*#include<iostream>
  using namespace std;
  int main(){
-  int books[7]={50, 30, 75, 40, 20, 60, 45};
-  int greatest=books[0];
-  if(greatest<books[1]){
-    greatest=books[1];
-  } if(greatest<books[2]){
-    greatest=books[2];
-  }if(greatest<books[3]){
-    greatest=books[3];
-  }if(greatest<books[4]){
-    greatest=books[4];
-  }if(greatest<books[5]){
-    greatest=books[5];
-  }if(greatest<books[6]){
-    greatest=books[6];
-  }cout<<"highest sale of the book is "<<greatest;
+  int product[7]={50, 30, 75, 40, 20, 60, 45};
+  int lowest=product[0];
+  if(lowest<product[1]){
+    lowest=product[1];
+  } if(lowest<product[2]){
+    lowest=product[2];
+  }if(lowest<product[3]){
+    lowest=product[3];
+  }if(lowest<product[4]){
+    lowest=product[4];
+  }if(lowest<product[5]){
+    lowest=product[5];
+  }if(lowest<product[6]){
+    lowest=product[6];
+  }cout<<"highest sale of the book is "<<lowest;
  }
 
 
@@ -201,7 +201,7 @@ for(int i=0; i<10; i++){
 
   3. A school records students' marks in 5 subjects. Store the marks in an array and calculate the
     total and average marks. Example: {85, 90, 78, 88, 92}.*/
-    #include<iostream>
+    /*#include<iostream>
     using namespace std;
     int main(){
   int marks[]={85, 90, 78, 88, 92};
@@ -211,3 +211,23 @@ sum+=marks[i];
   }cout<<"Total marks are "<< sum;
   cout<<"Total marks of averge is "<<sum/5<<"%";
    }
+
+
+
+
+4. A company tracks the weekly sales of 4 different products. Store the sales in an array and find
+ the product with the lowest sales. Example: {150, 220, 180, 170}. */
+#include<iostream>
+    using namespace std;
+    int main(){
+int product[]= {150, 220, 180, 170};
+int lowest=product[0];
+if(lowest>product[1]){
+  lowest=product[1];
+} if(lowest>product[2]){
+  lowest=product[2];
+}if(lowest>product[3]){
+  lowest=product[3];
+}cout<<"lowest sale of the book is "<<lowest;
+}
+    
