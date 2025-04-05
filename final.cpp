@@ -157,4 +157,26 @@ int main(){
    }  cout<<"Total distance covered after 10 rounds "<<sum/1000<<" Km";
 }*/
 
- 
+
+
+/*1. A bookstore records the daily sales of 7 different books in an array. The program should find and
+ display the book with the highest sales. Example sales data: {50, 30, 75, 40, 20, 60, 45}*/
+ #include<iostream>
+ using namespace std;
+ int main(){
+  int books[7]={50, 30, 75, 40, 20, 60, 45};
+  int greatest=books[0];
+  if(greatest<books[1]){
+    greatest=books[1];
+  } if(greatest<books[2]){
+    greatest=books[2];
+  }if(greatest<books[3]){
+    greatest=books[3];
+  }if(greatest<books[4]){
+    greatest=books[4];
+  }if(greatest<books[5]){
+    greatest=books[5];
+  }if(greatest<books[6]){
+    greatest=books[6];
+  }cout<<"highest sale of the book is "<<greatest;
+ }
