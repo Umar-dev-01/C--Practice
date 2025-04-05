@@ -159,25 +159,25 @@ int main(){
 
 
 
-/*1. A bookstore records the daily sales of 7 different product in an array. The program should find and
- display the book with the highest sales. Example sales data: {50, 30, 75, 40, 20, 60, 45}*/
+/*1. A bookstore records the daily sales of 7 different books in an array. The program should find
+ and display the book with the highest sales. Example sales data: {50, 30, 75, 40, 20, 60, 45}. */
  /*#include<iostream>
  using namespace std;
  int main(){
   int product[7]={50, 30, 75, 40, 20, 60, 45};
-  int lowest=product[0];
-  if(lowest<product[1]){
-    lowest=product[1];
-  } if(lowest<product[2]){
-    lowest=product[2];
-  }if(lowest<product[3]){
-    lowest=product[3];
-  }if(lowest<product[4]){
-    lowest=product[4];
-  }if(lowest<product[5]){
-    lowest=product[5];
-  }if(lowest<product[6]){
-    lowest=product[6];
+  int lowest=sales[0];
+  if(lowest<sales[1]){
+    lowest=sales[1];
+  } if(lowest<sales[2]){
+    lowest=sales[2];
+  }if(lowest<sales[3]){
+    lowest=sales[3];
+  }if(lowest<sales[4]){
+    lowest=sales[4];
+  }if(lowest<sales[5]){
+    lowest=sales[5];
+  }if(lowest<sales[6]){
+    lowest=sales[6];
   }cout<<"highest sale of the book is "<<lowest;
  }
 
@@ -238,6 +238,40 @@ distances in an array and find the longest and shortest throws. Example: {55.5, 
  #include<iostream>
  using namespace std;
  int main(){
-  float distance[]={55.5, 60.2, 58.3, 62.1, 59.4, 61.5, 57.8, 60.9};
-  
+  float throws[]={55.5, 60.2, 58.3, 62.1, 59.4, 61.5, 57.8, 60.9};
+  float highestdistanc=throws[0];
+  if(highestdistanc<throws[1]){
+    highestdistanc=throws[1];
+  } if(highestdistanc<throws[2]){
+    highestdistanc=throws[2];
+  }if(highestdistanc<throws[3]){
+    highestdistanc=throws[3];
+  }if(highestdistanc<throws[4]){
+    highestdistanc=throws[4];
+  }if(highestdistanc<throws[5]){
+    highestdistanc=throws[5];
+  }if(highestdistanc<throws[6]){
+    highestdistanc=throws[6];
+  }if(highestdistanc<throws[7]){
+    highestdistanc=throws[7];
+  }
+  float lowest=throws[0];
+  if(lowest>throws[1]){
+    lowest=throws[1];
+  } if(lowest>throws[2]){
+    lowest=throws[2];
+  }if(lowest>throws[3]){
+    lowest=throws[3];
+  }if(lowest>throws[4]){
+    lowest=throws[4];
+  }if(lowest>throws[5]){
+    lowest=throws[5];
+  }if(lowest>throws[6]){
+    lowest=throws[6];
+  }if(lowest>throws[7]){
+    lowest=throws[7];
+  }
+  cout<<"highest throws is "<<highestdistanc<<endl;
+  cout<<"lowest throws  is "<<lowest;
  }
+ 
