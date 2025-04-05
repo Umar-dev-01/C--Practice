@@ -216,7 +216,7 @@ sum+=marks[i];
 
 
 4. A company tracks the weekly sales of 4 different products. Store the sales in an array and find
- the product with the lowest sales. Example: {150, 220, 180, 170}. */
+ the product with the lowest sales. Example: {150, 220, 180, 170}. 
 #include<iostream>
     using namespace std;
     int main(){
@@ -231,3 +231,13 @@ if(lowest>product[1]){
 }cout<<"lowest sale of the book is "<<lowest;
 }
     
+
+5. A sports team records the distances thrown by 8 players in a javelin throw competition. Store the 
+distances in an array and find the longest and shortest throws. Example: {55.5, 60.2, 58.3, 62.1, 59.4,
+ 61.5, 57.8, 60.9}. */
+ #include<iostream>
+ using namespace std;
+ int main(){
+  float distance[]={55.5, 60.2, 58.3, 62.1, 59.4, 61.5, 57.8, 60.9};
+  
+ }
