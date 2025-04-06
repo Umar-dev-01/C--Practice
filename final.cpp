@@ -275,19 +275,75 @@ distances in an array and find the longest and shortest throws. Example: {55.5, 
  }
  
 
+
  6. A movie streaming service tracks the watch time (in minutes) of 6 different movies. Store the watch 
  times in an array and find the total time a user has spent watching movies. Example:
-  {120, 150, 90, 180, 140, 160}. */
+  {120, 150, 90, 180, 140, 160}. 
   #include<iostream>
  using namespace std;
  int main(){
   int time[]={120, 150, 90, 180, 140, 160};
   int sum;
-  for (int i = 0; i < 6; i++)
-  {
+  for (int i = 0; i < 6; i++){
 sum+=time[i];
   }cout<<"Total time a user has spent watching movies in "<<sum/60<<" minutes";
  }
 
 
- 
+
+ 7. A restaurant records customer ratings for a week (out of 5 stars). Store the ratings in an array and
+  calculate the average rating. Example: {4.5, 4.0, 3.8, 4.2, 4.1, 3.9, 4.3}
+#include<iostream>
+using namespace std;
+int main(){
+float rating[]={4.5, 4.0, 3.8, 4.2, 4.1, 3.9, 4.3};
+float sum;
+for (int i = 0; i < 7; i++){
+ sum+=rating[i];
+}cout<<"The average rating is "<<sum/7;
+}
+
+
+
+//ye halat hy question mn houre manga gia hy mn ny time nikal k dia hy
+8. A traffic monitoring system records the number of vehicles passing through a toll booth every hour 
+for 12 hours. Store the counts in an array and find the hour with the highest traffic. Example: 
+{35, 40, 28, 50, 45, 30, 38, 41, 42, 55, 47, 39}.
+#include<iostream>
+using namespace std;
+int main(){
+  int vehical[]={35, 40, 28, 50, 45, 30, 38, 41, 42, 55, 47, 39};
+  int highest=vehical[0];
+  if(highest<vehical[1]){
+    highest=vehical[1];
+  } if(highest<vehical[2]){
+    highest=vehical[2];
+  }if(highest<vehical[3]){
+    highest=vehical[3];
+  }if(highest<vehical[4]){
+    highest=vehical[4];
+  }if(highest<vehical[5]){
+    highest=vehical[5];
+  }if(highest<vehical[6]){
+    highest=vehical[6];
+  }if(highest<vehical[7]){
+    highest=vehical[7];
+  }if(highest<vehical[8]){
+    highest=vehical[8];
+  }if(highest<vehical[9]){
+    highest=vehical[9];
+  }if(highest<vehical[10]){
+    highest=vehical[10];
+  }if(highest<vehical[11]){
+    highest=vehical[11];
+  }cout<<highest<<" the hour wihich in the highest traffic ";
+}
+
+9. A teacher records the attendance of 30 students (1 for present, 0 for absent). Store the attendance in
+ an array and count how many students were absent. Example:
+  {1, 1, 0, 1, 0, 1, 1, 1, 0, 1, 1, 0, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1}. */
+  #include<iostream>
+  using namespace std;
+  int main(){
+
+  }  
