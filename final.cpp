@@ -234,7 +234,7 @@ if(lowest>product[1]){
 
 5. A sports team records the distances thrown by 8 players in a javelin throw competition. Store the 
 distances in an array and find the longest and shortest throws. Example: {55.5, 60.2, 58.3, 62.1, 59.4,
- 61.5, 57.8, 60.9}. */
+ 61.5, 57.8, 60.9}. 
  #include<iostream>
  using namespace std;
  int main(){
@@ -270,8 +270,24 @@ distances in an array and find the longest and shortest throws. Example: {55.5, 
     lowest=throws[6];
   }if(lowest>throws[7]){
     lowest=throws[7];
-  }
-  cout<<"highest throws is "<<highestdistanc<<endl;
+  }cout<<"highest throws is "<<highestdistanc<<endl;
   cout<<"lowest throws  is "<<lowest;
  }
+ 
+
+ 6. A movie streaming service tracks the watch time (in minutes) of 6 different movies. Store the watch 
+ times in an array and find the total time a user has spent watching movies. Example:
+  {120, 150, 90, 180, 140, 160}. */
+  #include<iostream>
+ using namespace std;
+ int main(){
+  int time[]={120, 150, 90, 180, 140, 160};
+  int sum;
+  for (int i = 0; i < 6; i++)
+  {
+sum+=time[i];
+  }cout<<"Total time a user has spent watching movies in "<<sum/60<<" minutes";
+ }
+
+
  
