@@ -305,45 +305,54 @@ for (int i = 0; i < 7; i++){
 
 
 
-//ye halat hy question mn houre manga gia hy mn ny time nikal k dia hy
+
 8. A traffic monitoring system records the number of vehicles passing through a toll booth every hour 
 for 12 hours. Store the counts in an array and find the hour with the highest traffic. Example: 
 {35, 40, 28, 50, 45, 30, 38, 41, 42, 55, 47, 39}.
 #include<iostream>
 using namespace std;
 int main(){
-  int vehical[]={35, 40, 28, 50, 45, 30, 38, 41, 42, 55, 47, 39};
-  int highest=vehical[0];
-  if(highest<vehical[1]){
-    highest=vehical[1];
-  } if(highest<vehical[2]){
-    highest=vehical[2];
-  }if(highest<vehical[3]){
-    highest=vehical[3];
-  }if(highest<vehical[4]){
-    highest=vehical[4];
-  }if(highest<vehical[5]){
-    highest=vehical[5];
-  }if(highest<vehical[6]){
-    highest=vehical[6];
-  }if(highest<vehical[7]){
-    highest=vehical[7];
-  }if(highest<vehical[8]){
-    highest=vehical[8];
-  }if(highest<vehical[9]){
-    highest=vehical[9];
-  }if(highest<vehical[10]){
-    highest=vehical[10];
-  }if(highest<vehical[11]){
-    highest=vehical[11];
-  }cout<<highest<<" the hour wihich in the highest traffic ";
+  int hour[]={35, 40, 28, 50, 45, 30, 38, 41, 42, 55, 47, 39};
+int vehical,counter;
+for(int i=0; i<12; i++){
+if(hour[i]>vehical){
+  vehical=hour[i];
+
+counter=i;
+}}cout<<vehical<<" vehicals in "<<counter+1<<" hour in the highest traffic";
 }
 
-9. A teacher records the attendance of 30 students (1 for present, 0 for absent). Store the attendance in
+
+/*9. A teacher records the attendance of 30 students (1 for present, 0 for absent). Store the attendance in
  an array and count how many students were absent. Example:
-  {1, 1, 0, 1, 0, 1, 1, 1, 0, 1, 1, 0, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1}. */
+  {1, 1, 0, 1, 0, 1, 1, 1, 0, 1, 1, 0, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1}. 
   #include<iostream>
   using namespace std;
   int main(){
+int attendence[30]={1, 1, 0, 1, 0, 1, 1, 1, 0, 1, 1, 0, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1};
+int even;
+for(int i=0; i<30; i++){
+if(attendence[i]==0){
+even++;
+}
+  }cout<<"Absents students are "<<even<<endl;
+ cout<<"present students are "<<30-even;
+ } 
 
-  }  
+
+
+ 10. A delivery service tracks the daily package deliveries for a month (30 days). Store the deliveries in
+  an array and find the day with the highest number of deliveries. Example:  {15, 20, 18, 22, 25, 19, 21, 
+    17, 23, 24, 16, 20, 18, 22, 26, 19, 21, 17, 23, 24, 16, 20, 18, 22, 25, 19, 21, 17, 23, 24}.*/
+ #include<iostream>
+using namespace std;
+int main(){
+int days[]={15, 20, 18, 22, 25, 19, 21,17, 23, 24, 16, 20, 18, 22, 26, 19, 21, 17, 23, 24, 16, 20, 18, 22, 25, 19, 21, 17, 23, 24};
+int   highest_delivery,dayCounter;
+for(int i=0; i<30; i++){
+  if(days[i]>highest_delivery){
+    highest_delivery=days[i];
+    dayCounter=i;
+  }
+}cout<<"Highest delivery is the "<< highest_delivery<<" and in the day "<<dayCounter+1;
+}
