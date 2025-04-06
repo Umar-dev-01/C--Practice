@@ -343,7 +343,7 @@ even++;
 
  10. A delivery service tracks the daily package deliveries for a month (30 days). Store the deliveries in
   an array and find the day with the highest number of deliveries. Example:  {15, 20, 18, 22, 25, 19, 21, 
-    17, 23, 24, 16, 20, 18, 22, 26, 19, 21, 17, 23, 24, 16, 20, 18, 22, 25, 19, 21, 17, 23, 24}.*/
+    17, 23, 24, 16, 20, 18, 22, 26, 19, 21, 17, 23, 24, 16, 20, 18, 22, 25, 19, 21, 17, 23, 24}.
  #include<iostream>
 using namespace std;
 int main(){
@@ -355,4 +355,31 @@ for(int i=0; i<30; i++){
     dayCounter=i;
   }
 }cout<<"Highest delivery is the "<< highest_delivery<<" and in the day "<<dayCounter+1;
+}
+
+
+
+Function-Based Questions (10 Questions) 
+1. Library Fine System: A library charges a late return fine as follows: 
+o First 5 days: $2 per day 
+o Next 5 days: $3 per day 
+o After 10 days: $5 per day*/
+#include<iostream>
+using namespace std;
+int fine(int days){
+  int total;
+  if(days<=5){
+total=days*2;
+  }else if(days<=10){
+    total=(5*2)+((days-5)*3);
+  }else if(days<=15){
+    total=(5*2)+(5*3)+((days-10)*5);
+  }
+return total;
+}
+int main(){
+cout<<"ENter your days ";
+int days;
+cin>>days;
+cout<<fine(days)<<"$ fine";
 }
