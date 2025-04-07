@@ -392,3 +392,26 @@ o Semi-Private: $400 per day
 o Private Room: $1000 per day 
 Write a function that takes the number of days and room type as input and returns the total bill. 
 Call this function for different patients. */
+#include<iostream>
+using namespace std;
+
+int charges(char ward){
+  int days;
+cout<<"Enter your days ";
+cin>>days;
+if(ward=='G' || ward=='g'){
+return days*200;
+}else if(ward=='S' || ward=='s'){
+  return days*400;
+  }else if(ward=='P' || ward=='p'){
+  return days*1000;
+  }else{
+    cout<<"Invalid entery however ";
+  }return 0;
+}int main(){
+  cout<<"Enter your ward for General Ward=G and for Semi-Private=S and for Private Room P ";
+  char ward;
+  cin>>ward;
+int total=charges(ward);
+cout<<"Your total bill is "<<total;
+}
