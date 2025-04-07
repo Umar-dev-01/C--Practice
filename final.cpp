@@ -448,14 +448,37 @@ int main(){
  mnagment( service);
 }
 
-
+//<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<>......<>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 4. Water Consumption Tracker: A water utility company calculates monthly water usage bills based on consumption: 
 o Up to 30 gallons: $1 per gallon 
 o 31-100 gallons: $0.8 per gallon 
 o More than 100 gallons: $0.5 per gallon 
 Write a function that takes the number of gallons used and calculates the total bill. Call this function for
- multiple users. */
+ multiple users. 
+
+
+
+
+5. Online Store Discount System: An online store offers discounts based on the total bill: 
+o Below $100: No discount 
+o $100 - $500: 10% discount 
+o Above $500: 20% discount 
+Write a function that takes the total bill amount and returns the final price after applying the discount. */
  #include<iostream>
  using namespace std;
 
- 
+void  discount(int amount){
+if(amount<100){
+cout<<"Sorry You are not worthy of this discount your total bill is "<<amount;
+}else if(amount>100 && amount<500){
+  cout<<"Give you 10% discount. your total bill is "<<amount-(amount*0.10);
+}else if(amount>500){
+  cout<<"Give you 20% discount. your total bill is "<<amount-(amount*0.20);
+}
+}
+int main(){
+  cout<<"Enter your amount i will check and give you discount ";
+  double amount;
+  cin>>amount;
+  discount( amount);
+}
