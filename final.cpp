@@ -155,11 +155,11 @@ int main(){
     sum+=b;
     b+=0.5;
    }  cout<<"Total distance covered after 10 rounds "<<sum/1000<<" Km";
-}*/
+}
 
 
 
-/*1. A bookstore records the daily sales of 7 different books in an array. The program should find
+1. A bookstore records the daily sales of 7 different books in an array. The program should find
  and display the book with the highest sales. Example sales data: {50, 30, 75, 40, 20, 60, 45}. */
  /*#include<iostream>
  using namespace std;
@@ -391,7 +391,7 @@ o General Ward: $200 per day
 o Semi-Private: $400 per day 
 o Private Room: $1000 per day 
 Write a function that takes the number of days and room type as input and returns the total bill. 
-Call this function for different patients. */
+Call this function for different patients.
 #include<iostream>
 using namespace std;
 
@@ -415,3 +415,47 @@ return days*200;
 int total=charges(ward);
 cout<<"Your total bill is "<<total;
 }
+
+
+
+3. Car Service Management: A car service station offers the following services: 
+o Oil Change: $50 
+o Engine Tuning: $120 
+o Tire Replacement: $200 
+o Complete Service Package: $500 
+Write a function that takes a service name as input and returns the corresponding cost. Use this function 
+to generate bills for 3 different customers. 
+#include<iostream>
+using namespace std;
+
+void mnagment(char service){
+if(service=='O' || service=='o'){
+  cout<<"For your Car service Oil Change is total bill is $"<<50;
+}else if(service=='E' || service=='e'){
+  cout<<"For your Car Service Engine Tuning total bill is $"<<120;
+}else if(service=='T' || service=='t'){
+  cout<<"For your Car Service Tire Replacement total bill is $"<<200;
+}else if(service=='C' || service=='c'){
+  cout<<"For your Car Service Complete Service Package total bill is $"<<500;
+}else {
+  cout<<"Invalid entry ";
+}
+}
+int main(){
+  cout<<"What do you want for oil change press O and Engine Tuning= E and Tire Replacement= T or  Complete Service Package for press C  ";
+  char service;
+  cin>>service;
+ mnagment( service);
+}
+
+
+4. Water Consumption Tracker: A water utility company calculates monthly water usage bills based on consumption: 
+o Up to 30 gallons: $1 per gallon 
+o 31-100 gallons: $0.8 per gallon 
+o More than 100 gallons: $0.5 per gallon 
+Write a function that takes the number of gallons used and calculates the total bill. Call this function for
+ multiple users. */
+ #include<iostream>
+ using namespace std;
+
+ 
