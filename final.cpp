@@ -364,7 +364,7 @@ Function-Based Questions (10 Questions)
 o First 5 days: $2 per day 
 o Next 5 days: $3 per day 
 o After 10 days: $5 per day*/
-#include<iostream>
+/*#include<iostream>
 using namespace std;
 int fine(int days){
   int total;
@@ -383,3 +383,12 @@ int days;
 cin>>days;
 cout<<fine(days)<<"$ fine";
 }
+
+
+
+2. Hospital Billing System: A hospital charges patients based on their stay: 
+o General Ward: $200 per day 
+o Semi-Private: $400 per day 
+o Private Room: $1000 per day 
+Write a function that takes the number of days and room type as input and returns the total bill. 
+Call this function for different patients. */
