@@ -552,7 +552,7 @@ o Teens (12-17): $10
 o Adults (18-60): $15 
 o Seniors (above 60): $12 
 Write a function that takes a person's age and returns the ticket price. Use this function to calculate
- the total cost for a family of 5.*/
+ the total cost for a family of 5.
  #include<iostream>
  using namespace std;
 void seats(int age){
@@ -575,3 +575,41 @@ cin>>age;
 seats(age);
   }}
 
+
+
+8. Mobile Recharge System: A telecom company offers different recharge plans: 
+o $10 plan: 2GB data, 100 minutes 
+o $20 plan: 5GB data, 300 minutes 
+o $30 plan: 10GB data, unlimited calls 
+Write a function that takes a plan choice as input and returns the details of that plan. Use this function 
+for 3 different users. 
+#include<iostream>
+using namespace std;
+void offers(int plan){
+  if(plan==10){
+    cout<<"2GB data, 100 minutes will give it to you "<<endl;
+  }else if(plan==20){
+    cout<<"5GB data, 300 minutes will give it to you "<<endl;
+  }else if(plan==30){
+    cout<<"10GB data, unlimited calls will give it to you "<<endl;
+  }
+}int main(){
+  for(int i=1; i<=3; i++){
+  cout<<"Cllient "<<i<<" We have 3 plans $10, $20 and $30 ";
+  int plan;
+  cin>>plan;
+  offers(plan);
+}
+}
+
+
+
+9. Electricity Bill Calculation: An electricity company charges based on units consumed: 
+o First 100 units: $0.50 per unit 
+o Next 200 units: $0.75 per unit 
+o Above 300 units: $1.20 per unit 
+Write a function that takes the number of units consumed and calculates the total bill. Use this 
+function for different households. */
+#include<iostream>
+using namespace std;
+void 
