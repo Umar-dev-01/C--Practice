@@ -448,7 +448,8 @@ int main(){
  mnagment( service);
 }
 
-//<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<>......<>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
 4. Water Consumption Tracker: A water utility company calculates monthly water usage bills
  based on consumption: 
 o Up to 30 gallons: $1 per gallon 
@@ -612,4 +613,23 @@ Write a function that takes the number of units consumed and calculates the tota
 function for different households. */
 #include<iostream>
 using namespace std;
-void 
+void bill(int units){
+  int total;
+  if(units<=100){
+    total=units*0.50;
+  }else if(units>100 && units<=300){
+    total=units*0.75;
+  }else if(units>300){
+    total=units*1.20;
+  }
+ cout<<"Your units are "<<units<<" and bill is "<<total<<endl;
+}
+  int main(){
+    cout<<"How many units is your bill? ";
+    for(int i=0; i<4; i++){
+      cout<<"How many units is your bill? ";
+      int units;
+      cin>>units;
+      bill(units);
+  }
+}
