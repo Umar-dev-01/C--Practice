@@ -610,7 +610,7 @@ o First 100 units: $0.50 per unit
 o Next 200 units: $0.75 per unit 
 o Above 300 units: $1.20 per unit 
 Write a function that takes the number of units consumed and calculates the total bill. Use this 
-function for different households. */
+function for different households. 
 #include<iostream>
 using namespace std;
 void bill(int units){
@@ -633,3 +633,53 @@ void bill(int units){
       bill(units);
   }
 }
+
+
+
+
+10. E-commerce Shipping Cost Calculator: An online store calculates shipping costs based on item weight 
+and delivery location: 
+o Local (within city): $5 + $0.10 per kg 
+o National (within country): $10 + $0.20 per kg 
+o International: $25 + $0.50 per kg 
+Write a function that takes weight and delivery location as inputs and returns the total shipping cost. Call
+ this function for multiple orders. 
+#include<iostream>
+using namespace std;
+void Shipping(char location){
+  cout<<"How much is the weight of the parcel? ";
+  int weight;
+  cin>>weight;
+  double storeKeper;
+  if(location=='L' || location=='l'){
+    storeKeper=(weight*0.10)+5;
+    }
+  else if(location=='N' || location=='n'){
+    storeKeper=(weight*0.20)+10;
+    }
+  else if(location=='I' || location=='i'){
+    storeKeper=(weight*0.50)+25;
+    }cout<<"Your total shipping cost is "<<storeKeper<<endl;
+}
+int main(){
+  cout<<"How many parcels are you ";
+  int parcel;
+  cin>>parcel;
+  for(int i=1; i<=parcel; i++){
+  
+  cout<<"Please enter the location of the parcel for Local (within city) press L and National (within country) for N and International for I ";
+  char location;
+cin>>location;
+Shipping(location);
+}}
+
+
+
+Function-Based Questions with Explanations 
+1. Library Fine System      Why use a function?  
+o Instead of writing the same fine calculation multiple times for different users, a function allows us to 
+reuse the logic. 
+o If the fine policy changes, we only need to update the function once, instead of modifying multiple parts
+ of the program.*/
+ #include<iostream>
+using namespace std;
