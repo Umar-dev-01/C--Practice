@@ -510,34 +510,68 @@ int main(){
 
 
 6. Flight Fare Calculator: A flight company calculates ticket fares based on seat class
- and distance traveled: 
+ and clases traveled: 
 o Economy: $0.10 per km 
 o Business: $0.25 per km 
 o First Class: $0.50 per km 
-Write a function that takes the seat class and distance as input and calculates the total fare.
- Use this function to book tickets for 3 different passengers. */
+Write a function that takes the seat class and clases as input and calculates the total fare.
+ Use this function to book tickets for 3 different passengers. 
  #include<iostream>
  using namespace std;
+
 void travlled(char clases){
-  cout<<"How many kilometers do you have to go? ";
-  int distance;
-  cin>>distance;
-if(distance=='E' || distance=='e'){
-  cout<<"Your total bill is "<<distance*0.10;
-}if else(distance=='B' || distance=='b'){
-  cout<<"Your total bill is "<<distance*0.25;
-}if else(distance=='F' || distance=='f'){
-  cout<<"Your total bill is "<<distance*0.50;
-}
-}
+if(clases=='E' || clases=='e'){
+  cout<<"Your total bill is "<<clases*0.10<<endl;
+}else if(clases=='B' || clases=='b'){
+  cout<<"Your total bill is "<<clases*0.25<<endl;
+}else if(clases=='F' || clases=='f'){
+  cout<<"Your total bill is "<<clases*0.50<<endl;
+}}
 int main(){
   cout<<"How many passenger ";
   int passenger;
   cin>>passenger;
   for(int i=1; i<=passenger; i++){
-  cout<<"Enter your type of flight for Economy press E and business B and First Clas F ";
-  int clases;
+  cout<<"Enter Passenger "<<i<<" whatss your type of flight for Economy press E and business B and First Clas F ";
+  char clases;
   cin>>clases;
+  cout<<"Passenger "<<i<<" How many kilometers do you have to go? ";
+  int distance;
+  cin>>distance;
+ 
   travlled(clases);
 } 
 }
+
+
+
+
+7. Movie Theater Ticket Pricing: A cinema charges for tickets based on age: 
+o Children (under 12): $8 
+o Teens (12-17): $10 
+o Adults (18-60): $15 
+o Seniors (above 60): $12 
+Write a function that takes a person's age and returns the ticket price. Use this function to calculate
+ the total cost for a family of 5.*/
+ #include<iostream>
+ using namespace std;
+void seats(int age){
+  int ticket;
+  if(age<12){
+    ticket=8;
+  }else if(age>12 && age<=17){
+    ticket=10;
+  }else if(age>17 && age<=60){
+    ticket=15;
+  }else if(age>60){
+    ticket=12;
+  }cout<<"Your ticket price is $"<<ticket<<endl;
+}
+  int main(){
+    for(int i=1; i<=5; i++){
+cout<<"Enter your age ";
+int age;
+cin>>age;
+seats(age);
+  }}
+
