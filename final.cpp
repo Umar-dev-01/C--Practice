@@ -456,7 +456,7 @@ o 31-100 gallons: $0.8 per gallon
 o More than 100 gallons: $0.5 per gallon 
 Write a function that takes the number of gallons used and calculates the total bill.
  Call this function for
- multiple users. */
+ multiple users.
  #include<iostream>
  using namespace std;
 void water (double gallon){
@@ -484,7 +484,7 @@ water(gallon);
 
 
 
-/*5. Online Store Discount System: An online store offers discounts based on the total bill: 
+5. Online Store Discount System: An online store offers discounts based on the total bill: 
 o Below $100: No discount 
 o $100 - $500: 10% discount 
 o Above $500: 20% discount 
@@ -506,4 +506,38 @@ int main(){
   double amount;
   cin>>amount;
   discount( amount);
-}*/
+}
+
+
+6. Flight Fare Calculator: A flight company calculates ticket fares based on seat class
+ and distance traveled: 
+o Economy: $0.10 per km 
+o Business: $0.25 per km 
+o First Class: $0.50 per km 
+Write a function that takes the seat class and distance as input and calculates the total fare.
+ Use this function to book tickets for 3 different passengers. */
+ #include<iostream>
+ using namespace std;
+void travlled(char clases){
+  cout<<"How many kilometers do you have to go? ";
+  int distance;
+  cin>>distance;
+if(distance=='E' || distance=='e'){
+  cout<<"Your total bill is "<<distance*0.10;
+}if else(distance=='B' || distance=='b'){
+  cout<<"Your total bill is "<<distance*0.25;
+}if else(distance=='F' || distance=='f'){
+  cout<<"Your total bill is "<<distance*0.50;
+}
+}
+int main(){
+  cout<<"How many passenger ";
+  int passenger;
+  cin>>passenger;
+  for(int i=1; i<=passenger; i++){
+  cout<<"Enter your type of flight for Economy press E and business B and First Clas F ";
+  int clases;
+  cin>>clases;
+  travlled(clases);
+} 
+}
